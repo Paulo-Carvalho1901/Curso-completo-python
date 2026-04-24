@@ -19,5 +19,3 @@ print('Adicionado valor na lista', lista)
 # podemos tambem retirar um valor da lista com pop
 ultimo_valor = lista.pop()
 print('Valor pego pelo pop',ultimo_valor, lista)
-
-# como voce ve remove o ultimo valor inserido na lista
