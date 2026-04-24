@@ -14,11 +14,12 @@ Cuidados com dados mutáveis
 Para deixa mais claro
 quando o valor for imutavel você esta copiando o valor para outra variável
 
-quando o valor for mutavel você apenas esta referenciando o valor na memória
+quando o valor for mutável você apenas esta referenciando o valor na memória
 """
 
-lista_a = ['Luiz', 'Maria']
-lista_b = lista_a
+lista_a = ['Luiz', 'Maria', 1, True, 1.2]
+lista_b = lista_a.copy()
 
 lista_a[0] = 'Qualquer coisa'
+print(lista_a)
 print(lista_b)
