@@ -19,3 +19,19 @@ print(x)
 
 texto = "Olá"
 # texto[0] = "o"  ❌ ERRO: string é imutável
+
+# Valores mutáveis
+#  Podem ser alterados após a criação, sem criar um novo objeto.
+
+# Principais tipos mutáveis:
+# list – listas
+# dict – dicionários
+# set – conjuntos
+
+lista = [1, 2, 3]
+lista.append(4) # altera a lista original
+print(lista)
+
+dicionario = {"nome": "Paulo"}
+dicionario["idade"] = 30  # adiciona novo item
+print(dicionario)
