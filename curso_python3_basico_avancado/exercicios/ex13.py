@@ -5,6 +5,8 @@ inserir, apagar, e listar valores da sua lista
 não permita que o programa quebre com
 erros de indices inesistentes na lista
 """
+import os
+
 lista = []
 
 while True:
@@ -12,7 +14,9 @@ while True:
     opcao = input('[i]nserir [a]pagar [l]istar: ')
 
     if opcao == 'i':
-        print('i')
+        os.system('clear')
+        valor = input('Valor: ')
+        lista.append(valor)
     elif opcao == 'a':
         print('a')
     elif opcao == 'l':
