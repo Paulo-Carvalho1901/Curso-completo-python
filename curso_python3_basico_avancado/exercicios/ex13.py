@@ -10,3 +10,12 @@ lista = []
 while True:
     print('Selecione uma opção.')
     opcao = input('[i]nserir [a]pagar [l]istar: ')
+
+    if opcao == 'i':
+        print('i')
+    elif opcao == 'a':
+        print('a')
+    elif opcao == 'l':
+        print('l')
+    else:
+        print('Por favor escolha i a ou l.')
