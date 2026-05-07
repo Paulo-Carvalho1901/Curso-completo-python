@@ -14,7 +14,12 @@ while True:
     opcao = input('[i]nserir [a]pagar [l]istar: ')
 
     if opcao == 'i':
-        os.system('clear')
+        """
+        Limpa o terminal
+        solicita um valor ao usuário
+        da uma append na lista do valor solicitado
+        """
+        os.system('clear') 
         valor = input('Valor: ')
         lista.append(valor)
     elif opcao == 'a':
