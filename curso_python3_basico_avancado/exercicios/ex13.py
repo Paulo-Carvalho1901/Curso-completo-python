@@ -25,6 +25,15 @@ while True:
     elif opcao == 'a':
         print('a')
     elif opcao == 'l':
-        print('l')
+        # limpa o terminal
+        os.system('clear')
+
+        # Valida se à algo para lista
+        if len(lista) == 0:
+            print('Nada para listar.')
+            
+        # Itera sobre a lista mostrando seu indice e valor
+        for i, valor in enumerate(lista):
+            print(i, valor)
     else:
         print('Por favor escolha i a ou l.')
