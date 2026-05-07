@@ -12,5 +12,8 @@ listas_frases = []
 for i, frases in enumerate(lista_de_frases_cruas):
     listas_frases.append(lista_de_frases_cruas[i].strip())
 
-print(lista_de_frases_cruas)
-print(listas_frases)
+# print(lista_de_frases_cruas)
+# print(listas_frases)
+
+frases_unidas = ', '.join(listas_frases)
+print(frases_unidas)
