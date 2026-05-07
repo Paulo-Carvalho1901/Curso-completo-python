@@ -23,7 +23,21 @@ while True:
         valor = input('Valor: ')
         lista.append(valor)
     elif opcao == 'a':
-        print('a')
+        # Solicitando um indice da lista
+        indice_str = input(
+            'Escolha um indice para apagar: '
+        )
+
+        # Tratamento de erros possiveis do programa
+        try:
+            indice = int(indice_str)
+            del lista[indice]
+        except ValueError:
+            print('Por favor digite números int.')
+        except IndexError:
+            print('Indice não existe na lista.')
+        except Exception:
+            print('Erro desconhecido.')
     elif opcao == 'l':
         # limpa o terminal
         os.system('clear')
