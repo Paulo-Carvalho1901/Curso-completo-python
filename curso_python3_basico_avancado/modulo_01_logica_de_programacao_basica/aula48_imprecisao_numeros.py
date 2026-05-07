@@ -11,3 +11,6 @@ print(numero_3)
 # Formatando a saída desejada 
 # Forma 1
 print(f'{numero_3:.2f}')
+
+# Forma 2
+print(round(numero_3, 3))
