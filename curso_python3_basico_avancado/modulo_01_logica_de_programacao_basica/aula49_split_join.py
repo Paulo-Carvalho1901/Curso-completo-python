@@ -5,5 +5,5 @@ join - une uma string
 """
 
 frase = 'Olha só que, coisa interessante'
-lista_de_palavras = frase.split()
+lista_de_palavras = frase.split(',')
 print(lista_de_palavras)
