@@ -9,4 +9,7 @@ salas = [
     ['Luiz', 'João', 'Eduardo', (0, 10, 20, 30, 40)], # 2 
 ]
 
-print(salas[2][3][2])
+# print(salas[2][3][2])
+
+for sala in salas:
+    print(sala)
