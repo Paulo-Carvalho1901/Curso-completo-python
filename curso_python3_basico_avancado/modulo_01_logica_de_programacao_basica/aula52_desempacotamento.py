@@ -11,3 +11,8 @@ tupla = 'Python', 'e', 'legal'
 # Desenpacotando a lista com for
 for itens in lista:
     print(itens, end=' ')
+print()
+
+# Obtendo o mesmo resultado que for
+# desempacotandoa lista
+print(*lista)
