@@ -7,6 +7,9 @@ python -m mod (lib mod como script)
 python -c 'cmd' (comando)
 python -i mod.py (interativo com mod)
 
+Comando para as regras
+python -c "import this"
+
 The Zen of Python, por Tim Peters
 
 Bonito é melhor que feio.
