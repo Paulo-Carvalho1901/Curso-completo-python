@@ -1,8 +1,10 @@
 # Desempacotamento em chamadas
 # de métodos e função
 string = 'ABCD'
-lista = ['Maria', 'Helena', 'Eduarda']
+lista = ['Maria', 'Helena', 1, 2, 3, 'Eduarda']
 tupla = 'Python', 'e', 'legal'
 
-a, b, c = lista
-print(a, c)
+# Desempacotamento
+# a, b, *_, c = lista
+# print(a, c)
+
