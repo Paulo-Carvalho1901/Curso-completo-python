@@ -8,3 +8,6 @@ tupla = 'Python', 'e', 'legal'
 # a, b, *_, c = lista
 # print(a, c)
 
+# Desenpacotando a lista com for
+for itens in lista:
+    print(itens, end=' ')
