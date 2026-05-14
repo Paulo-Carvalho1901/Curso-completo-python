@@ -41,20 +41,26 @@ cpf_enviado_pelo_usuario = re.sub(
     '',
     entrada
 )
-nove_digito = cpf_enviado_pelo_usuario[:9]
 
-# Fazendo a multiplcação desses nove digitos e somando o resultado
+# Criando uma validação para caracteres repetidos
+
+# Pegando os 10 primeiros digitos
+nove_digito = cpf_enviado_pelo_usuario[:9]
+# Criando contador regressivo
 contador_regressivo_1 = 10
 
+# Fazendo a multiplcação desses nove digitos e somando o resultado
 resultado_digito_1 = 0
 for digito in nove_digito:
-    resultado_digito_1 += int(digito) * contador_regressivo_1 # multiplicando e somando
+    # Multiplicando e somando
+    resultado_digito_1 += int(digito) * contador_regressivo_1
     contador_regressivo_1 -= 1
 
 # Calculando o primeiro digito
 # multiplicando o resultado por 10
 # fazendo o resto da divisão
 digito_1 = (resultado_digito_1 * 10) % 11
+# Condição ternária do primeiro digito
 digito_1 = digito_1 if digito_1 <= 9 else 0
 
 # |---------------------------------------------------------------------|
