@@ -24,12 +24,22 @@ contrário disso:
 
 O segundo dígito do CPF é 0
 """
+import re
+
 # cpf = '36440847007'  # Esse CPF gera o primeiro dígito como 10 (0)
 # primeiro passo pegando os primeros 9 digitos
-cpf_enviado_pelo_usuario = input('Digite um cpf: ') \
-    .replace('.', '') \
-    .replace('-', '') \
-    .replace(' ', '')
+# cpf_enviado_pelo_usuario = input('Digite um cpf: ') \
+#     .replace('.', '') \
+#     .replace('-', '') \
+#     .replace(' ', '')
+
+# Utilizando expressão regular para formatar o input
+# do usuário
+cpf_enviado_pelo_usuario = re.sub(
+    r'[^0-9]',
+    '',
+    input('Digite um cpf: ')
+)
 nove_digito = cpf_enviado_pelo_usuario[:9]
 
 # Fazendo a multiplcação desses nove digitos e somando o resultado
