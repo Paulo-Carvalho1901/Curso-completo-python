@@ -55,5 +55,5 @@ for digito in dez_digitos:
 
 # lógica para ver se digito é igual a 2
 digito_2 = (resultado_digito_2 * 10) % 11
-digito_2 = digito_2 if digito_2 >= 0 else 9
+digito_2 = digito_2 if digito_2 <= 9 else 0
 print(digito_2)
