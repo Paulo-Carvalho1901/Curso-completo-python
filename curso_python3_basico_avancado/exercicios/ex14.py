@@ -29,9 +29,16 @@ cpf = '74682489070'
 nove_digito = cpf[:9]
 
 # Fazendo a multiplcação desses nove digitos e somando o resultado
-contador_regressivo = 10
+contador_regressivo_1 = 10
 
-resultado = 0
+resultado_digito_1 = 0
 for digito in nove_digito:
-    resultado += int(digito) * contador_regressivo # multiplicando e somando
-    contador_regressivo -= 1
+    resultado_digito_1 += int(digito) * contador_regressivo_1 # multiplicando e somando
+    contador_regressivo_1 -= 1
+
+# Calculando o primeiro digito
+# multiplicando o resultado por 10
+# fazendo o resto da divisão
+digito_1 = (resultado_digito_1 * 10) % 11
+digito_1 = digito_1 if digito_1 <= 9 else 0
+print(digito_1)
