@@ -35,10 +35,11 @@ import re
 
 # Utilizando expressão regular para formatar o input
 # do usuário
+entrada = input('Digite um cpf: ')
 cpf_enviado_pelo_usuario = re.sub(
     r'[^0-9]',
     '',
-    input('Digite um cpf: ')
+    entrada
 )
 nove_digito = cpf_enviado_pelo_usuario[:9]
 
