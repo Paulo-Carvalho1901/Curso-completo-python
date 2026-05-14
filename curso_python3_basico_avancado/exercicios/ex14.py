@@ -27,3 +27,11 @@ O primeiro dígito do CPF é 7
 # primeiro passo pegando os primeros 9 digitos
 cpf = '74682489070'
 nove_digito = cpf[:9]
+
+# Fazendo a multiplcação desses nove digitos e somando o resultado
+contador_regressivo = 10
+
+resultado = 0
+for digito in nove_digito:
+    resultado += int(digito) * contador_regressivo # multiplicando e somando
+    contador_regressivo -= 1
