@@ -26,7 +26,10 @@ O segundo dígito do CPF é 0
 """
 # cpf = '36440847007'  # Esse CPF gera o primeiro dígito como 10 (0)
 # primeiro passo pegando os primeros 9 digitos
-cpf_enviado_pelo_usuario = '74682489070'
+cpf_enviado_pelo_usuario = input('Digite um cpf: ') \
+    .replace('.', '') \
+    .replace('-', '') \
+    .replace(' ', '')
 nove_digito = cpf_enviado_pelo_usuario[:9]
 
 # Fazendo a multiplcação desses nove digitos e somando o resultado
