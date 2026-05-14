@@ -26,8 +26,8 @@ O segundo dígito do CPF é 0
 """
 # cpf = '36440847007'  # Esse CPF gera o primeiro dígito como 10 (0)
 # primeiro passo pegando os primeros 9 digitos
-cpf = '74682489070'
-nove_digito = cpf[:9]
+cpf_enviado_pelo_usuario = '74682489070'
+nove_digito = cpf_enviado_pelo_usuario[:9]
 
 # Fazendo a multiplcação desses nove digitos e somando o resultado
 contador_regressivo_1 = 10
@@ -56,4 +56,12 @@ for digito in dez_digitos:
 # lógica para ver se digito é igual a 2
 digito_2 = (resultado_digito_2 * 10) % 11
 digito_2 = digito_2 if digito_2 <= 9 else 0
-print(digito_2)
+
+# novo cpf
+cpf_gerado_pelo_calculo = f'{nove_digito}{digito_1}{digito_2}'
+
+# Validando cpf pelo usuário
+if cpf_enviado_pelo_usuario == cpf_gerado_pelo_calculo:
+    print(f'O CPF {cpf_enviado_pelo_usuario} é vaálido.')
+else:
+    print(f'CPF {cpf_enviado_pelo_usuario} é inválido.')
