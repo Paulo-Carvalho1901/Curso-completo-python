@@ -25,6 +25,7 @@ contrário disso:
 O segundo dígito do CPF é 0
 """
 import re
+import sys
 
 # cpf = '36440847007'  # Esse CPF gera o primeiro dígito como 10 (0)
 # primeiro passo pegando os primeros 9 digitos
@@ -43,6 +44,11 @@ cpf_enviado_pelo_usuario = re.sub(
 )
 
 # Criando uma validação para caracteres repetidos
+entrada_e_sequencial = entrada == entrada[0] * len(entrada)
+
+if entrada_e_sequencial:
+    print('Você enviou dados sequenciais.')
+    sys.exit()
 
 # Pegando os 10 primeiros digitos
 nove_digito = cpf_enviado_pelo_usuario[:9]
