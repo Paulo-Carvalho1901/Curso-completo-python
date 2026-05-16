@@ -18,4 +18,4 @@ def imprimir(a, b, c): # parâmetro
     print('Várias2')
     print('Várias3')
 
-imprimir() # argumento (valores)
+imprimir(1, 2, 3) # argumento (valores)
