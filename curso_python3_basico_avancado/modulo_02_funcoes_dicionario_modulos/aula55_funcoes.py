@@ -7,12 +7,15 @@ Por padrão, funções Python retornam None (nada).
 """
 
 # Criando uma função
-def Print():
+# def Print(a, b, c):
+#     print('Várias1')
+#     print('Várias2')
+#     print('Várias3')
+#     print('Várias4')
+
+def imprimir(a, b, c): # parâmetro
     print('Várias1')
     print('Várias2')
     print('Várias3')
-    print('Várias4')
 
-Print()
-Print()
-Print()
+imprimir() # argumento (valores)
