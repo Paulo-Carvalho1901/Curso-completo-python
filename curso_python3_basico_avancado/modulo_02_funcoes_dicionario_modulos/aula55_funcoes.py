@@ -14,8 +14,7 @@ Por padrão, funções Python retornam None (nada).
 #     print('Várias4')
 
 def imprimir(a, b, c): # parâmetro
-    print('Várias1')
-    print('Várias2')
-    print('Várias3')
+    print(a, b, c) # utilizando os valores
 
 imprimir(1, 2, 3) # argumento (valores)
+imprimir(4, 5, 6)
