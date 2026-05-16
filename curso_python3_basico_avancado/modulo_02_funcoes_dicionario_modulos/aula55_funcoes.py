@@ -13,8 +13,15 @@ Por padrão, funções Python retornam None (nada).
 #     print('Várias3')
 #     print('Várias4')
 
-def imprimir(a, b, c): # parâmetro
-    print(a, b, c) # utilizando os valores
+# def imprimir(a, b, c): # parâmetro
+#     print(a, b, c) # utilizando os valores
 
-imprimir(1, 2, 3) # argumento (valores)
-imprimir(4, 5, 6)
+# imprimir(1, 2, 3) # argumento (valores)
+# imprimir(4, 5, 6)
+
+def saudacao(nome='Sem nome'):
+    print(f'Olá, {nome}!')
+
+saudacao('Maria')
+saudacao('João')
+saudacao()
