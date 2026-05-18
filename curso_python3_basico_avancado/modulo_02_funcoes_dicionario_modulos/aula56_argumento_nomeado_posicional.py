@@ -4,7 +4,9 @@ Argumento nomeado tem nome com sinal de igual
 Argumento não nomeado recebe apenas o argumento (valor)
 """
 
+# Argumentos posicionais
 def soma(x, y):
-    print(x + y)
+    print(f'{x=} y={y}', '|', 'x + y =', x + y)
 
-soma(10, 5)
+soma(1, 3)
+soma(2, 1)
