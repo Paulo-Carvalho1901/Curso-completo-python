@@ -19,7 +19,7 @@ def escopo():
 
     def outra_funcao():
        # global x
-        x = 11
+        # x = 11
         y = 2
         print(x, y)
 
