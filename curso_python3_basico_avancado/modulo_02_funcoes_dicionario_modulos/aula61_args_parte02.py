@@ -10,8 +10,9 @@ def soma(*args):
 soma_1_2_3 = soma(1, 2, 3)
 print(soma_1_2_3)
 
-soma_geral = soma(125, 25)
+numeros = 125, 25, 25
+soma_geral = soma(*numeros)
 print(soma_geral)
 
 # Função interna do Python (sum)
-print(sum((125, 25)))
+print(sum(numeros))
