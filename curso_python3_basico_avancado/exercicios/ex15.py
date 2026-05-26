@@ -30,9 +30,13 @@ print(multiplica_2)
 # Retorne se o número é par ou impar
 
 def par_impar(numero):
-    if numero % 2 == 0:
-        print(f'Seu numero foi {numero} é Par')
-    else:
-        print(f'Seu numero foi {numero} é impar')
+    multiplo_de_dois = numero % 2 == 0
 
-par_impar(2)
+    if multiplo_de_dois:
+        return f'{numero} é Par'
+    return f'{numero} é Impar'
+
+print(par_impar(2))
+print(par_impar(15))
+print(par_impar(21))
+print(par_impar(8))
