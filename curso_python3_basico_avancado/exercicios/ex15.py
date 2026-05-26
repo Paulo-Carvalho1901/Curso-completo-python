@@ -29,3 +29,10 @@ print(multiplica_2)
 # Crie uma função fala se um número é par ou impar
 # Retorne se o número é par ou impar
 
+def par_impar(numero):
+    if numero % 2 == 0:
+        print(f'Seu numero foi {numero} é Par')
+    else:
+        print(f'Seu numero foi {numero} é impar')
+
+par_impar(2)
