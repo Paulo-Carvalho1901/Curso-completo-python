@@ -6,9 +6,10 @@ Funções de primeira classe
 def saudacao(msg):
     return msg
 
-# Apontando com uma variável uma função
-saudacao_2 = saudacao
 
-# executando essa função salva na variável
-v = saudacao_2('Bom dia!')
+def executa(funcao, texto):
+    return funcao(texto)
+
+
+v = executa(saudacao, 'Bom dia')
 print(v)
