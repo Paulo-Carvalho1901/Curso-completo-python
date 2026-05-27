@@ -3,13 +3,18 @@ Higher Order Functions
 Funções de primeira classe
 """
 
-def saudacao(msg):
-    return msg
+def saudacao(msg, nome):
+    return f'{msg}, {nome}!'
 
 
-def executa(funcao, texto):
-    return funcao(texto)
+def executa(funcao, *args):
+    return funcao(*args)
 
 
-v = executa(saudacao, 'Bom dia')
-print(v)
+print(
+    executa(saudacao, 'Bom dia', 'Paulo')
+)
+
+print(
+    executa(saudacao, 'Boa Noite', 'Andreia')
+)
