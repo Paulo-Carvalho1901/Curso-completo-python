@@ -1,13 +1,15 @@
 # Clousure e funções que retornam outras funções
 
-def criar_saudacao(saudacao, nome):
-    def soudar():
+def criar_saudacao(saudacao):
+    def soudar(nome):
         return f'{saudacao}, {nome}!'
     return soudar # retornando a funçao em si para ela mesma
 
 
-saudacao_1 = criar_saudacao('Bom dia', 'Paulo')
-saudacao_2 = criar_saudacao('Boa noite', 'Paulo')
+falar_bom_dia = criar_saudacao('Bom dia')
+falar_boa_noite = criar_saudacao('Boa noite')
 
-print(saudacao_1()) # fazendo o fechamento da função (clousure)
-print(saudacao_2())
+print(falar_bom_dia('Paulo')) # fazendo o fechamento da função (clousure)
+print(falar_boa_noite('Andreia'))
+
+
