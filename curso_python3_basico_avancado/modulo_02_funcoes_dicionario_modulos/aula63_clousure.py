@@ -3,7 +3,7 @@
 def criar_saudacao(saudacao, nome):
     def soudar():
         return f'{saudacao}, {nome}!'
-    return soudar()
+    return soudar # retornando a funçao em si para ela mesma
 
 
 saudacao_1 = criar_saudacao('Bom dia', 'Paulo')
