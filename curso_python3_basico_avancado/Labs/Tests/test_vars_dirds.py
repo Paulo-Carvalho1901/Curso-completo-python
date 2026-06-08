@@ -9,3 +9,21 @@
 #           retorna apenas os nomes, não os objetos ou seus valores.
 
 
+um_nome = "um_nome (GLObal)"
+
+
+def func_global(sou_local: str) -> None:
+    um_nome = "um_nome (LOCAL)"
+    outro_nome = "outro_nome (LOCAL)"
+    print("locals (nomespace da função)")
+    print("dir", dir())
+    print('vars', vars())
+
+
+# func_global("arg (LOCAL)")
+# print()
+
+
+print("glbals (namespace do módulo)")
+print("dir", dir())
+print("vars", vars())
