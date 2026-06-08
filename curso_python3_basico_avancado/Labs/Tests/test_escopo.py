@@ -21,7 +21,7 @@ def func_global(sou_local: str) -> None:
 
 # Nomes de dentro da função não estão DISPONÍVEL fora da função
 # NÃO FUNCIONARÁ
-print(outro_nome, sou_local)
+# print(outro_nome, sou_local)
 
 
 print('Nome do modulo:', __name__)
