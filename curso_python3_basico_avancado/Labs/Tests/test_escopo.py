@@ -18,10 +18,18 @@ def func_global(sou_local: str) -> None:
     # Parâmetros de funções também são do escopo local da função
     print(f"Dentro da função: {um_nome}, {outro_nome}, {sou_local}")
 
+
+# Nomes de dentro da função não estão DISPONÍVEL fora da função
+# NÃO FUNCIONARÁ
+# print(outro_nome, sou_local)
+
+
 print('Nome do modulo:', __name__)
 print('Arquivo do modulo:', __file__)
 print('Documentação do modulo:', __doc__)
 print()
 
+func_global("Olá mundo: (LOCAL)")
+# Saída: Dentro da função: um_nome (LOCAL), outro_nome (LOCAL), arg (LOCAL)
 
 print('Fora da função:', um_nome) # Escopo GLOBAL
