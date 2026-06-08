@@ -13,7 +13,7 @@
 # guarda nomes como `x.func_global()`, `x.valor`, etc.
 #
 ################################################################################
-import Labs.scope_namespace_python.x as x
+import x
 
 
 def func_global() -> None:
