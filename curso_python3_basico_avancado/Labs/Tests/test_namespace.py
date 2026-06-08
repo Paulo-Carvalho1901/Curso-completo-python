@@ -9,7 +9,11 @@
 namespace_global = globals()
 um_nome = "um_nome (GLOBAL)"
 
-print(id(um_nome), id(namespace_global['um_nome']))
+# print(id(um_nome), id(namespace_global['um_nome']))
+# print(__builtins__)
+# print(__builtins__.locals())
+print(dir(__builtins__))
+
 
 def func_global(sou_local: str) -> None:
     um_nome = "um_nome (LOCAL)"
