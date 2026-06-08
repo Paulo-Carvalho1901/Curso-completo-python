@@ -18,10 +18,10 @@ def func_global(sou_local: str) -> None:
     print()
 
 
-# func_global("arg (LOCAL)")
+func_global("olá, mundo! (LOCAL)")
 # print()
 
 
-print("GLOBALS (namespace do modulo)")
-for chave, valor in list(globals().items()):
-    print(f"{chave}: {valor}")
+# print("GLOBALS (namespace do modulo)")
+# for chave, valor in list(globals().items()):
+#     print(f"{chave}: {valor}")
