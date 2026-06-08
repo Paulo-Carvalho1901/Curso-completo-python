@@ -9,6 +9,7 @@
 namespace_global = globals()
 um_nome = "um_nome (GLOBAL)"
 
+print(id(um_nome), id(namespace_global['um_nome']))
 
 def func_global(sou_local: str) -> None:
     um_nome = "um_nome (LOCAL)"
@@ -18,7 +19,7 @@ def func_global(sou_local: str) -> None:
     print()
 
 
-func_global("olá, mundo! (LOCAL)")
+# func_global("olá, mundo! (LOCAL)")
 # print()
 
 
