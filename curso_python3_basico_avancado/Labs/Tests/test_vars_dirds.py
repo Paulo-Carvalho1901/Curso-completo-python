@@ -20,10 +20,10 @@ def func_global(sou_local: str) -> None:
     print('vars', vars())
 
 
-func_global("arg (LOCAL)")
-print()
+# func_global("arg (LOCAL)")
+# print()
 
 
-# print("glbals (namespace do módulo)")
-# print("dir", dir())
-# print("vars", vars())
+print("glbals (namespace do módulo)")
+print("dir", dir())
+print("vars", vars())
