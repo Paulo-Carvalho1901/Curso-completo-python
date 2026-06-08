@@ -15,6 +15,8 @@
 #            a função está sendo executada. Importante: ela só inclui nomes que
 #            já foram definidos antes da sua chamada.
 #
+# Gramatica do Python
+# python -c "help('keywords')"
 ################################################################################
 
 namespace_global = globals()
