@@ -24,6 +24,7 @@ def func_global(sou_local: str) -> None:
 # print(outro_nome, sou_local)
 
 
+# Isso é injetado automaticamente pelo Python no escopo global
 print('Nome do modulo:', __name__)
 print('Arquivo do modulo:', __file__)
 print('Documentação do modulo:', __doc__)
