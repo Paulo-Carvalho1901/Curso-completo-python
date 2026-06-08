@@ -22,5 +22,6 @@ def func_global(sou_local: str) -> None:
 # print()
 
 
-# print("GLOBALS (namespace do modulo)")
-# print(globals())
+print("GLOBALS (namespace do modulo)")
+for chave, valor in list(globals().items()):
+    print(f"{chave}: {valor}")
