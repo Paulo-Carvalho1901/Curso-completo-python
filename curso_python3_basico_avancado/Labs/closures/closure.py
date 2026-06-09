@@ -11,3 +11,16 @@
 # São muito usados em programação funcional, decoradores de função e algoritmos
 # em geral.
 
+def externa(a):
+    # Enclosing
+    def interna(b):
+        # Função interna precisa de 'a'
+        return f'{a} {b}'
+    
+    return interna # função interna não executada
+
+
+imcompleta = externa('Paulo')
+completo = imcompleta('Carvalho')
+
+print(completo)
