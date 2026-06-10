@@ -21,3 +21,10 @@ pessoa = {
     ]
 }
 
+# pessoa = {
+#     "nome": "Paulo",
+#     "sobrenome": "Carvalho" 
+# }
+
+# pessoa = dict(nome='Paulo Roberto', sobrenome='Carvalho')
+print(pessoa)
