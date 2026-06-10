@@ -18,7 +18,7 @@ pessoa = {
     'endereços': [
         {'rua': 'tal tal', 'número': 123},
         {'rua': 'outra rua', 'número': 321},
-    ]
+    ],
 }
 
 # pessoa = {
@@ -27,4 +27,11 @@ pessoa = {
 # }
 
 # pessoa = dict(nome='Paulo Roberto', sobrenome='Carvalho')
-print(pessoa)
+print(pessoa['nome'])
+print(pessoa['sobrenome'])
+
+print()
+
+# Iterando com for no dicionario
+for chave in pessoa:
+    print(chave, pessoa[chave])
