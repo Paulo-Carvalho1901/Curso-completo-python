@@ -5,10 +5,12 @@ pessoa = {}
 ##
 
 # Adicionando um item no dicionário
-chave = 'nome_completo'
+chave = 'nome'
 
 pessoa[chave] = 'Paulo Roberto'
 pessoa['Sobrenome'] = 'Carvalho'
 
-print(pessoa[chave])
+# Alterando o valor da chave
+pessoa[chave] = 'Andreia'
+
 print(pessoa)
