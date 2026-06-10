@@ -7,4 +7,5 @@ pessoa = {}
 # Adicionando um item no dicionário
 pessoa['nome'] = 'Paulo Roberto'
 pessoa['Sobrenome'] = 'Carvalho'
-print(pessoa)
+
+print(pessoa['nome'])
