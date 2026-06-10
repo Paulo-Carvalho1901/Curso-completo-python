@@ -13,4 +13,7 @@ pessoa['Sobrenome'] = 'Carvalho'
 # Alterando o valor da chave
 pessoa[chave] = 'Andreia'
 
+# Apagando uma chave
+del pessoa['Sobrenome']
+
 print(pessoa)
