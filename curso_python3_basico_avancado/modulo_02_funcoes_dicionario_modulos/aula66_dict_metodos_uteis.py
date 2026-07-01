@@ -15,7 +15,8 @@ pessoa = {
 }
 
 # print(len(pessoa)) # Len retorna quantidade de chaves de um dicionario
-#print(pessoa.keys()) # pegando apenas as chaves
+# print(pessoa.keys()) # pegando apenas as chaves
+print(pessoa.values())
 
-for chave in pessoa.keys():
+for chave in pessoa.values():
     print(chave)
