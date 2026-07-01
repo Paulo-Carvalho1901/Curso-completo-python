@@ -19,5 +19,5 @@ pessoa = {
 # print(pessoa.values()) # pega apenas o valor do dict
 # print(pessoa.items()) # pega chave e valor do dict
 
-# for chave in pessoa.values():
-#     print(chave)
+for chave, valor in pessoa.items():
+    print(chave, valor)
