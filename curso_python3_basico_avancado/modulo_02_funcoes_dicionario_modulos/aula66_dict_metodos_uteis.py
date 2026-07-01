@@ -14,4 +14,8 @@ pessoa = {
     'sobrenome': 'Miranda',
 }
 
-print(len(pessoa)) # Len retorna quantidade de chaves de um dicionario
+# print(len(pessoa)) # Len retorna quantidade de chaves de um dicionario
+#print(pessoa.keys()) # pegando apenas as chaves
+
+for chave in pessoa.keys():
+    print(chave)
