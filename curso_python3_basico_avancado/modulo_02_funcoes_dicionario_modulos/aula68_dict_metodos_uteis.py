@@ -26,7 +26,17 @@ print()
 # print(p1)
 
 print()
-print('pop item')
-ultima_chave = p1.popitem()
-print(ultima_chave)
+# print('pop item')
+# ultima_chave = p1.popitem()
+# print(ultima_chave)
+# print(p1)
+
+print()
+print('update')
+# atualizando o dict
+p1.update({
+    'nome': 'novo_valor',
+    'idade': 35
+})
+
 print(p1)
