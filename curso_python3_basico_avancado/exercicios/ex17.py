@@ -28,6 +28,9 @@ perguntas = [
 for pergunta in perguntas:
     print('Pergunta:', pergunta['Pergunta'])
     print()
-    for opcao in pergunta['Opções']:
-        print(opcao)
+
+    for i, opcao in enumerate(pergunta['Opções']):
+        print(f'{i})', opcao)
+
     print()
+    
