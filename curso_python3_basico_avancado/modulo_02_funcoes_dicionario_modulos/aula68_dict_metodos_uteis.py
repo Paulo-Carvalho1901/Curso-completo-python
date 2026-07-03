@@ -10,9 +10,19 @@
 # popitem - Apaga o último item adicionado
 # update - Atualiza um dicionário com outro
 p1 = {
-    # 'nome': 'Paulo',
+    'nome': 'Paulo',
     'sobrenome': 'Carvalho'
 }
 
+print('get')
+
 # print(p1['nome'])
-print(p1.get('nome')) # se nome não existir retorna nome ou valor padrão definido.
+# print(p1.get('nome', 'Não existe')) # se nome não existir retorna nome ou valor padrão definido.
+
+print()
+# metodo pop apaga um item utilizandoa chave do diconario
+print('pop')
+nome = p1.pop('nome')
+print(nome)
+print(p1)
+
