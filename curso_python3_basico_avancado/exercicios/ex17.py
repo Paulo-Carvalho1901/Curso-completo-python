@@ -26,5 +26,5 @@ perguntas = [
 ]
 
 for pergunta in perguntas:
-    print(pergunta)
+    print(pergunta['Pergunta'])
     print()
