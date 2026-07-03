@@ -17,8 +17,11 @@ d1 = {
     'c2': 2,
 }
 
-d2 = d1
+# Criando copia rasa
+# copia rasa vale apenas para valores imutavel (str, int, float, bool, tuple)
+d2 = d1.copy()
 d2['c1'] = 1000
+
 print('d1', d1)
 print('d2', d2)
 
