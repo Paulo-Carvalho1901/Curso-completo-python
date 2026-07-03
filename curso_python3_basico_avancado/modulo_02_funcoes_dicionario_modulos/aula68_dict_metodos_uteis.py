@@ -34,9 +34,11 @@ print()
 print()
 print('update')
 # atualizando o dict
-p1.update({
-    'nome': 'novo_valor',
-    'idade': 35
-})
+# p1.update({
+#     'nome': 'novo_valor',
+#     'idade': 35
+# })
 
+# atualizando dict com parametros nomeados
+p1.update(nome='novo valor', sobrenome='outro_valor', idade=42)
 print(p1)
