@@ -14,15 +14,19 @@ p1 = {
     'sobrenome': 'Carvalho'
 }
 
-print('get')
-
+# print('get')
 # print(p1['nome'])
 # print(p1.get('nome', 'Não existe')) # se nome não existir retorna nome ou valor padrão definido.
 
 print()
 # metodo pop apaga um item utilizandoa chave do diconario
-print('pop')
-nome = p1.pop('nome')
-print(nome)
-print(p1)
+# print('pop')
+# nome = p1.pop('nome')
+# print(nome)
+# print(p1)
 
+print()
+print('pop item')
+ultima_chave = p1.popitem()
+print(ultima_chave)
+print(p1)
