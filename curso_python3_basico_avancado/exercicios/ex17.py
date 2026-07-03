@@ -1,5 +1,12 @@
 # Exercicios - Sistemas de perguntas e respostas
 
+"""
+Crie um sistemas de perguntas e resposta onde o usuario
+interaja com o sistema dinamicamente respondendo as perguntas
+e o sistema diga se ele acertou ou errou, faça a contagem de quantas voce acertou
+ao final do programa.
+"""
+
 perguntas = [
     {
         'Pergunta': 'Quanto é 2+2?',
