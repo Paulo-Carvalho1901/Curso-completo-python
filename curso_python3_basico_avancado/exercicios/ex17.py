@@ -26,5 +26,8 @@ perguntas = [
 ]
 
 for pergunta in perguntas:
-    print(pergunta['Pergunta'])
+    print('Pergunta:', pergunta['Pergunta'])
+    print()
+    for opcao in pergunta['Opções']:
+        print(opcao)
     print()
