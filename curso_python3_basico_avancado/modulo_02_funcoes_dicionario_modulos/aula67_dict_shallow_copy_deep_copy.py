@@ -10,6 +10,8 @@
 # popitem - Apaga o último item adicionado
 # update - Atualiza um dicionário com outro
 
+import copy
+
 # Exemplo com shallow copy dicionario
 print('Dict')
 d1 = {
@@ -23,7 +25,8 @@ d1 = {
 # agora quando os dados são mutavel, no caso como lista e dict
 # o o que acontece é que ele apenas aponta para esse mesmo valor na memoria da lista
 
-d2 = d1.copy()
+# d2 = copy.copy(d1) # ou d1.copy() ambos são copia rasa 
+d2 = copy.deepcopy(d1) # copia profunda
 
 d2['c1'] = 1000
 d2['li'][0] = 9999
