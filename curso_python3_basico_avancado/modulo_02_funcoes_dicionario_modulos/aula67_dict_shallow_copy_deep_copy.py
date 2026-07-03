@@ -15,12 +15,18 @@ print('Dict')
 d1 = {
     'c1': 1,
     'c2': 2,
+    'li': [0, 1, 2]
 }
 
 # Criando copia rasa
 # copia rasa vale apenas para valores imutavel (str, int, float, bool, tuple)
+# agora quando os dados são mutavel, no caso como lista e dict
+# o o que acontece é que ele apenas aponta para esse mesmo valor na memoria da lista
+
 d2 = d1.copy()
+
 d2['c1'] = 1000
+d2['li'][0] = 9999
 
 print('d1', d1)
 print('d2', d2)
