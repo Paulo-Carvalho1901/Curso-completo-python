@@ -24,3 +24,7 @@ perguntas = [
         'Resposta': '5',
     },
 ]
+
+for pergunta in perguntas:
+    print(pergunta)
+    print()
