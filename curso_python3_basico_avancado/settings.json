@@ -1,0 +1,99 @@
+{
+  /* ===== VISUAL (copiado do Windows) ===== */
+  "window.zoomLevel": 0,
+
+  "editor.wordWrap": "on",
+  "editor.fontSize": 16,
+  "editor.lineNumbers": "on",
+  "editor.glyphMargin": true,
+  "editor.minimap.enabled": false,
+  "editor.tabSize": 2,
+  "editor.rulers": [79, 120],
+
+  "debug.console.fontSize": 16,
+  "terminal.integrated.fontSize": 16,
+
+  "workbench.activityBar.location": "default",
+  "workbench.editor.labelFormat": "short",
+  "workbench.editor.enablePreview": false,
+  "workbench.iconTheme": "vscode-icons",
+
+  "explorer.compactFolders": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+
+  "files.eol": "\n",
+
+  /* ===== LINUX – EXECUÇÃO (inalterado) ===== */
+
+  "code-runner.executorMap": {
+    "python": "clear; python3 -u"
+  },
+  "code-runner.runInTerminal": true,
+  "code-runner.ignoreSelection": true,
+  "code-runner.saveAllFilesBeforeRun": true,
+  "code-runner.clearPreviousOutput": false,
+
+  "python.createEnvironment.trigger": "off",
+
+  "git.openRepositoryInParentFolders": "always",
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+
+  "vsicons.dontShowNewVersionMessage": true,
+  "tabnine.experimentalAutoImports": true,
+  "jupyter.askForKernelRestart": false,
+
+  /* ===== FORMATADORES (iguais nos dois) ===== */
+
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.ruff": "explicit",
+      "source.organizeImports.ruff": "explicit"
+    }
+  },
+
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[svg]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  /* ===== FILE NESTING (Linux original) ===== */
+
+  "explorer.fileNesting.patterns": {
+    "*.ts": "${capture}.js",
+    "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+    "*.jsx": "${capture}.js",
+    "*.tsx": "${capture}.ts",
+    "tsconfig.json": "tsconfig.*.json",
+    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb",
+    "*.sqlite": "${capture}.${extname}-*",
+    "*.db": "${capture}.${extname}-*",
+    "*.sqlite3": "${capture}.${extname}-*",
+    "*.db3": "${capture}.${extname}-*",
+    "*.sdb": "${capture}.${extname}-*",
+    "*.s3db": "${capture}.${extname}-*"
+  },
+  "python-envs.defaultEnvManager": "ms-python.python:pyenv",
+  "editor.renderWhitespace": "none",
+  "workbench.startupEditor": "none",
+  "workbench.colorTheme": "OM Theme (Default Dracula Italic)"
+}
