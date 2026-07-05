@@ -31,6 +31,8 @@ for pergunta in perguntas:
 
     for i, opcao in enumerate(pergunta['Opções']):
         print(f'{i})', opcao)
+    print()
+
+    escolha = input('Escolha uma opção: ')
 
     print()
-    
