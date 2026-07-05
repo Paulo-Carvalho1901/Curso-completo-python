@@ -25,6 +25,7 @@ perguntas = [
     },
 ]
 
+qtd_acertos = 0
 for pergunta in perguntas:
     print('Pergunta:', pergunta['Pergunta'])
     print()
@@ -50,10 +51,14 @@ for pergunta in perguntas:
             if opcoes[escolha_int] == pergunta['Resposta']:
                 acertou = True
 
+    print()
     if acertou:
+        qtd_acertos += 1
         print('Acertou \U0001F600')
     else:
         print('Errou \U0001F62D')
 
     print()
 
+print('Você acertou', qtd_acertos)
+print('de', len(perguntas), 'perguntas.')
