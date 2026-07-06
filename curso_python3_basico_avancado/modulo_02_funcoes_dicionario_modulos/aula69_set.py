@@ -38,7 +38,11 @@ s1.add('luiz') # não aceita numeros duplicados.
 
 s1.update(('Roberto', 1, 2, 2, 3, 4))
 
-s1.clear()
+# s1.clear()
+
+s1.discard('Roberto')
+s1.discard('luiz')
+s1.discard('Carvalho')
 print(s1)
 
 # Operadores úteis:
