@@ -22,14 +22,20 @@
 # s1 = set(l1)
 # l2 = list(s1)
 # print(l2)
-s1 = {1, 2, 3, 4}
-print(3 in s1) # está?
-print(3 not in s1) # não está?
-for numero in s1:
-    print(numero)
+# s1 = {1, 2, 3, 4}
+# print(3 in s1) # está?
+# print(3 not in s1) # não está?
+# for numero in s1:
+#     print(numero)
 
 # Métodos úteis:
 # add, update, clear, discard
+s1 = set()
+s1.add('luiz')
+s1.add(35)
+s1.add('Carvalho')
+print(s1)
+
 
 # Operadores úteis:
 # união | união (union) - Une
