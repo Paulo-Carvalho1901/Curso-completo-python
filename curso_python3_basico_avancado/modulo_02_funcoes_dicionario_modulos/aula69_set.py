@@ -55,4 +55,5 @@ s3 = {2, 3, 4}
 s4 = s2 | s3 # união
 s4 = s2 & s3 # intersecção
 s4 = s2 - s3 # diferença, apenas no set da esquerda
+s4 = s2 ^ s3 # diferença simétrica
 print(s4)
