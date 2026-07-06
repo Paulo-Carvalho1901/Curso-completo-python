@@ -51,6 +51,8 @@ s1.discard('Carvalho')
 # diferença simétrica ^ - Itens que não estão em ambos
 s2 = {1, 2, 3}
 s3 = {2, 3, 4}
+
 s4 = s2 | s3 # união
 s4 = s2 & s3 # intersecção
+s4 = s2 - s3 # diferença
 print(s4)
