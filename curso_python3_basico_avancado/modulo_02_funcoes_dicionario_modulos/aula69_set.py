@@ -32,8 +32,10 @@
 # add, update, clear, discard
 s1 = set()
 s1.add('luiz')
-s1.add(35)
+s1.add(1)
 s1.add('Carvalho')
+s1.add('luiz') # não aceita numeros duplicados.
+s1.update(('Roberto', 1, 2, 2, 3, 4))
 print(s1)
 
 
