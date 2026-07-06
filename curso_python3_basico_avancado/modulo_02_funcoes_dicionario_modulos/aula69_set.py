@@ -51,3 +51,4 @@ print(s1)
 # diferença - Itens presentes apenas no set da esquerda
 # diferença simétrica ^ - Itens que não estão em ambos
 s2 = {1, 2, 3}
+s3 = {2, 3, 4}
