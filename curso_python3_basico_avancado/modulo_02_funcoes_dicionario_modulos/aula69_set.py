@@ -43,7 +43,7 @@ s1.update(('Roberto', 1, 2, 2, 3, 4))
 s1.discard('Roberto')
 s1.discard('luiz')
 s1.discard('Carvalho')
-print(s1)
+# print(s1)
 # Operadores úteis:
 # união | união (union) - Une
 # intersecção & (intersection) - Itens presentes em ambos
