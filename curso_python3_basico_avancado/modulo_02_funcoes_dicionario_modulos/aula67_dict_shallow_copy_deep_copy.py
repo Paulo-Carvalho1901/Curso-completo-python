@@ -23,7 +23,7 @@ d1 = {
 # Criando copia rasa
 # copia rasa vale apenas para valores imutavel (str, int, float, bool, tuple)
 # agora quando os dados são mutavel, no caso como lista e dict
-# o o que acontece é que ele apenas aponta para esse mesmo valor na memoria da lista
+# o que acontece é que ele apenas aponta para esse mesmo valor na memoria da lista
 
 # d2 = copy.copy(d1) # ou d1.copy() ambos são copia rasa 
 d2 = copy.deepcopy(d1) # copia profunda
