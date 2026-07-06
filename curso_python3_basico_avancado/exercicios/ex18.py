@@ -44,3 +44,6 @@ for lista in lista_de_listas_de_inteiros:
         lista,
         encontra_primeiro_duplicado(lista)
     )
+
+# Teste
+print(encontra_primeiro_duplicado([1, 2, 3, 3, 2, 1]))
