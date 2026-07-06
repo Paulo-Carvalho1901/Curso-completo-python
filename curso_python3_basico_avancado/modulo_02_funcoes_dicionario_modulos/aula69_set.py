@@ -44,7 +44,6 @@ s1.discard('Roberto')
 s1.discard('luiz')
 s1.discard('Carvalho')
 print(s1)
-
 # Operadores úteis:
 # união | união (union) - Une
 # intersecção & (intersection) - Itens presentes em ambos
@@ -52,3 +51,5 @@ print(s1)
 # diferença simétrica ^ - Itens que não estão em ambos
 s2 = {1, 2, 3}
 s3 = {2, 3, 4}
+s4 = s2 | s3
+print(s4)
