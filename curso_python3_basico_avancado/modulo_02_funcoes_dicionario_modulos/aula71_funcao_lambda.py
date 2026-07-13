@@ -19,5 +19,6 @@
 
 lista = [12, 2, 2, 4, 5, 1, 0]
 
-lista.sort()
+lista.sort() # ordenando
+lista.sort(reverse=True) # mudando a ordem
 print(lista)
