@@ -11,3 +11,13 @@
 #     {'nome': 'Eduardo', 'sobrenome': 'Moreira'},
 #     {'nome': 'Aline', 'sobrenome': 'Souza'},
 # ]
+
+# set_lista = {100, 10, 10, 1, 2, 2, 3, 65}
+# lista_set = list(set_lista)
+# lista_set.sort()
+# print('transformando em lista', lista_set)
+
+lista = [12, 2, 2, 4, 5, 1, 0]
+
+lista.sort()
+print(lista)
