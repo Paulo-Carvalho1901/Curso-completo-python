@@ -13,3 +13,11 @@ print(isinstance(True, int))
 print() # Varificando endereço na memória
 print(id(hex(True)))
 print(id(hex(1)))
+
+print() # algumas exemplos
+a = 1
+b = 0
+
+if b:
+    if a/b > 2:
+        print(id(hex(True)))
