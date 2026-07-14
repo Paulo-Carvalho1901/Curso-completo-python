@@ -7,7 +7,7 @@
 from math import isclose
 
 x = 0.1 + 0.1 + 0.1
-y = 0.3
+y = 0.30005
 
 
-print(isclose(x, y))
+print(isclose(x, y, abs_tol=0.004)) # tolerância absoluta
