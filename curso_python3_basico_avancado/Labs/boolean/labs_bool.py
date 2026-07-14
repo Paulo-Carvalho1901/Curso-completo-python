@@ -9,3 +9,7 @@ print(100 * True)
 print()
 print(isinstance(True, bool))
 print(isinstance(True, int))
+
+print() # Varificando endereço na memória
+print(id(hex(True)))
+print(id(hex(1)))
