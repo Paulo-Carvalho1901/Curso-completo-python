@@ -3,8 +3,11 @@
 
 # Exemplo comun
 
+# isclose, testa se o número estão proximos dos valores
+from math import isclose
+
 x = 0.1 + 0.1 + 0.1
 y = 0.3
 
 
-print(x == y)
+print(isclose(x, y))
