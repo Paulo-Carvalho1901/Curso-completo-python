@@ -15,9 +15,13 @@ print(id(hex(True)))
 print(id(hex(1)))
 
 print() # algumas exemplos
-a = 1
-b = 0
+# a = 1
+# b = 0
 
-if b:
-    if a/b > 2:
-        print(id(hex(True)))
+# if b:
+#     if a/b > 2:
+#         print(id(hex(True)))
+
+
+# percurso de curto circuito
+print(True or 1/0 or () or 0)
