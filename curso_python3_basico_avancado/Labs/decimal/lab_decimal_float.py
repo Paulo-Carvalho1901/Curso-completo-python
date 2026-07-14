@@ -6,8 +6,12 @@
 # isclose, testa se o número estão proximos dos valores
 from math import isclose
 
-x = 0.1 + 0.1 + 0.1
-y = 0.30005
+# x = 0.1 + 0.1 + 0.1
+# y = 0.30005
+
+x = 0.000000001
+y = 0.000000002
 
 
-print(isclose(x, y, abs_tol=0.004)) # tolerância absoluta
+# print(isclose(x, y, abs_tol=0.004)) # tolerância absoluta
+print(isclose(x, y, rel_tol=0.4)) # tolerância relativa
