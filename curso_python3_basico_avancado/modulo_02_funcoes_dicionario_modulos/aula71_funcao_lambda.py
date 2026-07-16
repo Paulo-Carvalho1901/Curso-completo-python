@@ -12,15 +12,11 @@ lista = [
     {'nome': 'Aline', 'sobrenome': 'Souza'},
 ]
 
-# set_lista = {100, 10, 10, 1, 2, 2, 3, 65}
-# lista_set = list(set_lista)
-# lista_set.sort()
-# print('transformando em lista', lista_set)
 
-# lista = [12, 2, 2, 4, 5, 1, 0]
 
-# lista.sort() # ordenando
-# lista.sort(reverse=True) # mudando a ordem
-# print(lista)
+def ordena(item):
+    return item['nome']
 
+
+lista.sort(key=ordena)
 print(lista)
