@@ -19,7 +19,7 @@ lista = [
 # lista.sort(key=ordena) # fazendo a ordenação
 
 # Expressão lambda
-# no caso o primeiro item é argumento e segundo item é retorno da função
+# no caso o primeiro item é parâmetro e segundo item é retorno da função
 # lista.sort(key=lambda item: item['nome'])
 
 def exibir(lista):
