@@ -43,3 +43,17 @@ if x or print('Executou'):
     pass
 
 # O print nunca executa.
+
+# Criar uma função
+def a():
+    print('A executa')
+    return False
+
+def b():
+    print('B executa')
+    return True
+
+resultado = a() and b()
+print(resultado)
+
+#############################################################
