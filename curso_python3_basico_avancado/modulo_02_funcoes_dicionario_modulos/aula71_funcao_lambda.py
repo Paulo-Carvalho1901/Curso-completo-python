@@ -20,8 +20,15 @@ lista = [
 
 # Expressão lambda
 # no caso o primeiro item é argumento e segundo item é retorno da função
-lista.sort(key=lambda item: item['nome'])
+# lista.sort(key=lambda item: item['nome'])
 
+def exibir(lista):
+    for item in lista:
+        print(item)
+    print()
 
-for item in lista:
-    print(item)
+l1 = sorted(lista, key=lambda item: item['nome'])
+l2 = sorted(lista, key=lambda item: item['sobrenome'])
+
+exibir(l1)
+exibir(l2)
