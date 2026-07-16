@@ -32,3 +32,14 @@ if usuario and usuario.nome == 'Roberto':
 
 print(0 and True and False)
 print(False and 12 and 0.0 and True)
+
+# Operador or
+# Para A or B:
+# Se A for True, o resultado já será True.
+# Não há necessidade de avaliar B.
+
+x = True
+if x or print('Executou'):
+    pass
+
+# O print nunca executa.
