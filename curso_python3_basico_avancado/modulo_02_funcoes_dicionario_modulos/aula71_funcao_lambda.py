@@ -13,11 +13,10 @@ lista = [
 ]
 
 
-
 def ordena(item):
     return item['nome']
 
 lista.sort(key=ordena) # fazendo a ordenação
-print(lista)
 
-
+for item in lista:
+    print(item)
