@@ -30,3 +30,5 @@ if usuario and usuario.nome == 'Roberto':
 # AttributeError: 'NoneType' object has no attribute 'nome'
 # Mas como usuario é None (falsy), a segunda parte nem é avaliada.
 
+print(0 and True and False)
+print(False and 12 and 0.0 and True)
