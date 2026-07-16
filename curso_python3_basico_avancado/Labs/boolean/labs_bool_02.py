@@ -56,4 +56,17 @@ def b():
 resultado = a() and b()
 print(resultado)
 
+# b() nunca é chamada.
+print()
 #############################################################
+
+def a():
+    print('A executa')
+    return True
+
+def b():
+    print('B executa')
+    return False
+
+resultado = a() or b()
+print(resultado)
