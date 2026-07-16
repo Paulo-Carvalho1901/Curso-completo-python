@@ -13,10 +13,15 @@ lista = [
 ]
 
 
-def ordena(item):
-    return item['nome']
+# def ordena(item):
+#     return item['nome']
 
-lista.sort(key=ordena) # fazendo a ordenação
+# lista.sort(key=ordena) # fazendo a ordenação
+
+# Expressão lambda
+# no caso o primeiro item é argumento e segundo item é retorno da função
+lista.sort(key=lambda item: item['nome'])
+
 
 for item in lista:
     print(item)
