@@ -25,3 +25,10 @@ print(
         2, 3
     ),
 )
+
+print(
+    executa(
+        lambda *args: sum(args),
+        2, 3, 5, 5
+    )
+)
