@@ -4,13 +4,19 @@ cadastro_pessoa = [
     {"nome": "Andreia", "sobrenome": "Carvalho", "idade": 42},
 ]
 
-# função que organiza por nome
-def organiza(item):
-    return item['nome']
+# # função que organiza por nome
+# def organiza(item):
+#     return item['nome']
 
-# ordenando recebendo o nome da função
-cadastro_pessoa.sort(key=organiza)
+# # ordenando recebendo o nome da função
+# cadastro_pessoa.sort(key=organiza)
 
-# Iterando na funçao e printando o item
+# # Iterando na funçao e printando o item
+# for item in cadastro_pessoa:
+#     print(item)
+
+# Outra forma de ordenar mais agora com função lambda
+cadastro_pessoa.sort(key=lambda item: item['nome'])
+
 for item in cadastro_pessoa:
     print(item)
