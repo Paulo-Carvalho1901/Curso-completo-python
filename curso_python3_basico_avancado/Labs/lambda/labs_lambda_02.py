@@ -20,3 +20,8 @@ print(soma(2, 3))
 
 # Os argumentos são 2: x e y
 # A expressão a ser executada: x + y
+
+# exemplo 2:
+minha_lista = [('maça', 2), ('banana', 1), ('laranja', 3)]
+minha_lista_ordenada = sorted(minha_lista, key=lambda x: x[1])
+print(minha_lista_ordenada)
