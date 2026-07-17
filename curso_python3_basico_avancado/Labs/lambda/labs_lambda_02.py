@@ -35,3 +35,7 @@ def multiplica(x, y):
 
 
 print(multiplica(2, 3))
+
+# Lambda
+multiplicar = lambda x, y: x * y
+print(multiplicar(2, 10))
