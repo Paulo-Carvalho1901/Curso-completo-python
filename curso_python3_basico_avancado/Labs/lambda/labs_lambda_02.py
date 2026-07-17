@@ -17,3 +17,5 @@
 soma = lambda x, y: x + y
 print(soma(2, 3))
 
+# Os argumentos são 2: x e y
+# A expressão a ser executada: x + y
