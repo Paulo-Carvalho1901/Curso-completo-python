@@ -39,3 +39,13 @@ print(multiplica(2, 3))
 # Lambda
 multiplicar = lambda x, y: x * y
 print(multiplicar(2, 10))
+
+
+# exemplo 4:
+notas = {'Ana': 9, 'Bato': 7, 'Carlos': 8}
+
+notas_ordenadas = sorted(
+    notas.items(),
+    key=lambda tupla: tupla[1]
+)
+print(notas_ordenadas)
