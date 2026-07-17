@@ -1,3 +1,4 @@
+# https://hub.asimov.academy/blog/lambda-python/
 # Funções lambda são uma ferramenta elegante do Python que 
 # permite criar funções anônimas (sem nome) de forma concisa. São ideais para 
 # operações simples e únicas onde uma função completa seria excessiva.
