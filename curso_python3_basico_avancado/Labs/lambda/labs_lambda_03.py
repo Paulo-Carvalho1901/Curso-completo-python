@@ -6,15 +6,18 @@
 # e quer saber do imposto será cobrado sobre o serviço
 # o imposto é correspondendo a 30% do valor produto
 
-preco = 1000
+# preco = 1000
 
-def calcula_imposto(preco):
-    resultado = float((preco * 30) / 100) # calculo do imposto 
-    return resultado
+# def calcula_imposto(preco):
+#     resultado = float((preco * 30) / 100) # calculo do imposto 
+#     return resultado
 
 
-print(calcula_imposto(1000))
+# print(calcula_imposto(1000))
+
+
+entrada = float(input('Digite o valor: '))
 
 print()
-calc_imposto = lambda preco: preco * 0.3 # calculo do imposto 
-print(calc_imposto(1000))
+calc_imposto = lambda entrada: entrada * 0.3 # calculo do imposto 
+print(calc_imposto(entrada))
