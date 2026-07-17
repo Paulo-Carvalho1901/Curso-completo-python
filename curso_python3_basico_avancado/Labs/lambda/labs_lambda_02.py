@@ -1,0 +1,19 @@
+# Funções lambda são uma ferramenta elegante do Python que 
+# permite criar funções anônimas (sem nome) de forma concisa. São ideais para 
+# operações simples e únicas onde uma função completa seria excessiva.
+
+# Como criar Funções lambda
+
+# Uma função lambda é criada usando a palavra-chave lambda,
+# seguida de um ou mais argumentos, e uma expressão:
+
+# (argumentos) são os dados de entrada que esta função irá receber
+# (expressão) é o código que será executado quando a função lambda for chamada.
+
+# Sua sintaxe básica é a seguinte:
+# lambda {argumentos}: {expressão}
+
+# exemplo:
+soma = lambda x, y: x + y
+print(soma(2, 3))
+
