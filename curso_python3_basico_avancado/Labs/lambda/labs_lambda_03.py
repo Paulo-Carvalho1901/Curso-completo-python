@@ -1,0 +1,20 @@
+# Expressões Lambda
+# Funções "Anônimas" ou funções sem nome
+
+# Ex:
+# Digamos que você está avaliando o preço de um serviço
+# e quer saber do imposto será cobrado sobre o serviço
+# o imposto é correspondendo a 30% do valor produto
+
+preco = 1000
+
+def calcula_imposto(preco):
+    resultado = float((preco * 30) / 100) # calculo do imposto 
+    return resultado
+
+
+print(calcula_imposto(1000))
+
+print()
+calc_imposto = lambda preco: preco * 0.3 # calculo do imposto 
+print(calc_imposto(1000))
