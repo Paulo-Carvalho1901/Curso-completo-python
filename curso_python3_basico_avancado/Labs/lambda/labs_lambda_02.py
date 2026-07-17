@@ -14,7 +14,7 @@
 # Sua sintaxe básica é a seguinte:
 # lambda {argumentos}: {expressão}
 
-# exemplo:
+# exemplo 1:
 soma = lambda x, y: x + y
 print(soma(2, 3))
 
@@ -25,3 +25,13 @@ print(soma(2, 3))
 minha_lista = [('maça', 2), ('banana', 1), ('laranja', 3)]
 minha_lista_ordenada = sorted(minha_lista, key=lambda x: x[1])
 print(minha_lista_ordenada)
+
+
+# # exemplo 3:
+def multiplica(x, y):
+    """multiplica dois numeros"""
+    resultado = x * y
+    return resultado
+
+
+print(multiplica(2, 3))
