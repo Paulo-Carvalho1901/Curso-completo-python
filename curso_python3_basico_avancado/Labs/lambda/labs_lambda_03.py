@@ -16,8 +16,8 @@
 # print(calcula_imposto(1000))
 
 
-entrada = float(input('Digite o valor: '))
+x = float(input('Digite o valor: '))
 
 print()
-calc_imposto = lambda entrada: entrada * 0.3 # calculo do imposto 
-print(calc_imposto(entrada))
+calc_imposto = lambda x: x * 0.3 # calculo do imposto 
+print(calc_imposto(x))
