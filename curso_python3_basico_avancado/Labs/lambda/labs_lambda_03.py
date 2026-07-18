@@ -31,3 +31,7 @@ precos = [100, 500, 10, 25]
 
 imposto = list(map(calcular_imposto, precos))
 print(imposto)
+
+print()
+imposto_2 = list(map(lambda x: x * 0.3, precos))
+print(imposto_2)
