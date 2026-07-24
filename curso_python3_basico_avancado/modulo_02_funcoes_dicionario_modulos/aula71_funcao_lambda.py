@@ -17,6 +17,9 @@ lista = [
 #     return item['nome']
 
 # lista.sort(key=ordena) # fazendo a ordenação
+# for item in lista:
+#     print(lista)
+
 
 # Expressão lambda
 # no caso o primeiro item é parâmetro e segundo item é retorno da função
