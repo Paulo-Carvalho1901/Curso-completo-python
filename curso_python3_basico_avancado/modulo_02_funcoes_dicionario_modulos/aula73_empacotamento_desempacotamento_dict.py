@@ -9,5 +9,6 @@ pessoa = {
     'sobrenome': 'Carvalho'
 }
 
-a, b = pessoa.values()
-print(a, b)
+(a1, a2), (b1, b2) = pessoa.items()
+print(a1, a2)
+print(b1, b2)
