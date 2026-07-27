@@ -34,8 +34,10 @@ pessoa_completa = {**pessoa, **dados_pessoas}
 # args (argumentos não nomeados)
 # kwargs - keyword arguments (argumentos nomeados)
 def mostro_argumentos_nomeados(*args, **kwargs):
+    print('NÃO NOMEADOS', args)
+
     for chave, valor in kwargs.items():
         print(chave, valor)
 
 
-mostro_argumentos_nomeados(nome='Paulo', sobrenom='Roberto', idade=37, blabla='Qualquer coisa')
+mostro_argumentos_nomeados(1, 2, 3, nome='Paulo', sobrenom='Roberto', idade=37, blabla='Qualquer coisa')
