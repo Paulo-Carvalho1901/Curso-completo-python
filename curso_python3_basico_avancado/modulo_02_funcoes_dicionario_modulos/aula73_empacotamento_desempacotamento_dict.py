@@ -28,5 +28,8 @@ dados_pessoas = {
 }
 
 pessoa_completa = {**pessoa, **dados_pessoas}
+# print(pessoa_completa)
 
-print(pessoa_completa)
+# args  e kwargs
+# args (argumentos não nomeados)
+# kwargs - keyword arguments (argumentos nomeados)
