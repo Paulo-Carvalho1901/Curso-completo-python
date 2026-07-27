@@ -38,6 +38,7 @@ def mostro_argumentos_nomeados(*args, **kwargs):
 
     for chave, valor in kwargs.items():
         print(chave, valor)
-
+    print()
 
 mostro_argumentos_nomeados(1, 2, 3, nome='Paulo', sobrenom='Roberto', idade=37, blabla='Qualquer coisa')
+mostro_argumentos_nomeados(55, 99, 100,**pessoa_completa)
