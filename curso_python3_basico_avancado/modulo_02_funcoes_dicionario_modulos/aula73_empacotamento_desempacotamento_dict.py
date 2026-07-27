@@ -40,8 +40,8 @@ def mostro_argumentos_nomeados(*args, **kwargs):
         print(chave, valor)
     print()
 
-mostro_argumentos_nomeados(1, 2, 3, nome='Paulo', sobrenom='Roberto', idade=37, blabla='Qualquer coisa')
-mostro_argumentos_nomeados(55, 99, 100,**pessoa_completa)
+mostro_argumentos_nomeados(nome='Paulo', sobrenom='Roberto', idade=37, blabla='Qualquer coisa')
+mostro_argumentos_nomeados(**pessoa_completa)
 
 confi = {
     'arg1': 1, 
