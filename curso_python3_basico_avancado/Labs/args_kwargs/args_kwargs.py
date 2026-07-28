@@ -34,4 +34,5 @@ def mostro_argumentos_nomeados(*args, **kwargs):
         print(chave, valor)
 
 
-mostro_argumentos_nomeados(nome='Paulo', sobrenome='Carvalho')
+# mostro_argumentos_nomeados(nome='Paulo', sobrenome='Carvalho')
+mostro_argumentos_nomeados(**cadastro_completo)
