@@ -9,5 +9,5 @@ cadastro = {
     'sobrenome': 'Carvalho',
 }
 
-a, b = cadastro.values()
+a, b = cadastro.items()
 print(a, b)
