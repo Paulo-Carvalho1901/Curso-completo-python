@@ -35,3 +35,6 @@ dados_pessoa = {
     'altura': 1.80,
     'sexo': 'M',
 }
+
+cadastro_completo = {**cadastro, **dados_pessoa}
+print(cadastro_completo)
