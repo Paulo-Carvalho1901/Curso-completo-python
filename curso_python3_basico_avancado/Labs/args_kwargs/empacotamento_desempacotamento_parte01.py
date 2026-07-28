@@ -9,5 +9,7 @@ cadastro = {
     'sobrenome': 'Carvalho',
 }
 
-a, b = cadastro.items()
-print(a, b)
+# a metodos items() retorna chave e valor do dict
+(a1, a2), (b1, b2) = cadastro.items()
+print(a1, a2)
+print(b1, b2)
