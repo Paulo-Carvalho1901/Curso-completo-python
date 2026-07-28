@@ -29,3 +29,9 @@ cadastro = {
     'nome': 'Paulo',
     'sobrenome': 'Carvalho',
 }
+
+dados_pessoa = {
+    'idade': 35,
+    'altura': 1.80,
+    'sexo': 'M',
+}
