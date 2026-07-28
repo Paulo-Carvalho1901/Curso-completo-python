@@ -18,6 +18,5 @@ cadastro = {
 #########################################################################
 
 # OUTRA FORMA DE SE DESEMPACOTAR
-for valor in cadastro.items():
-    print(valor)
-    
+for chave, valor in cadastro.items():
+    print(chave, valor)
