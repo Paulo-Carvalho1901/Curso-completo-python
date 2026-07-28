@@ -9,7 +9,15 @@ cadastro = {
     'sobrenome': 'Carvalho',
 }
 
+# UMA FORMA DE SE DESEMPACOTAR
 # a metodos items() retorna chave e valor do dict
-(a1, a2), (b1, b2) = cadastro.items()
-print(a1, a2)
-print(b1, b2)
+# (a1, a2), (b1, b2) = cadastro.items()
+# print(a1, a2)
+# print(b1, b2)
+
+#########################################################################
+
+# OUTRA FORMA DE SE DESEMPACOTAR
+for valor in cadastro.items():
+    print(valor)
+    
