@@ -12,6 +12,21 @@
 
 
 ########################################################################
+
+usuario = {
+    'nome': 'Davi',
+    'sobrenome': 'Carvalho',
+}
+
+
+dados_usuario = {
+    'idade': 11,
+    'altura': 1.80,
+    'peso': 65.8
+}
+
+cadastro_completo = {**usuario, **dados_usuario}
+
 def mostro_argumentos_nomeados(*args, **kwargs):
     print('NÃO NOMEADO', args)
 
