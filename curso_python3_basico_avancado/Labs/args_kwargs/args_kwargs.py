@@ -12,4 +12,11 @@
 
 
 ########################################################################
+def mostro_argumentos_nomeados(*args, **kwargs):
+    print('NÃO NOMEADO', args)
 
+    for chave, valor in kwargs.items():
+        print(chave, valor)
+
+
+mostro_argumentos_nomeados(nome='Paulo', sobrenome='Carvalho')
