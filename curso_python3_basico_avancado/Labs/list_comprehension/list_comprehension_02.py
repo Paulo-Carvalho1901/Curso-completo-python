@@ -14,4 +14,13 @@ for numero in numeros:
 # com list comprehension:
 numeros = [1, 2, 3, 4, 5]
 quadrado = [numero ** 2 for numero in numeros]
-print(quadrado)
+# print(quadrado)
+
+###############################################################################
+
+# Sintaxe
+# [expressao for item in iteravel]
+
+nomes = ['Ana', 'João', 'Maria']
+letra_maiuscula = [nome.upper() for nome in nomes]
+print(letra_maiuscula)
