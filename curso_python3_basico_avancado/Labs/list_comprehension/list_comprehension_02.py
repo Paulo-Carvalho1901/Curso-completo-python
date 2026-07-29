@@ -32,4 +32,14 @@ letra_maiuscula = [nome.upper() for nome in nomes]
 
 numeros = [1, 2, 3, 4, 5, 6]
 pares = [numero for numero in numeros if numero % 2 == 0]
-print(pares)
+# print(pares)
+
+##############################################################################
+
+# Usando if/else
+# Também é possível transformar os valores de acordo com uma condição:
+
+numeros = [1, 2, 3, 4, 5]
+
+resultado = ["par" if numero % 2 == 0 else "impar" for numero in numeros]
+print(resultado)
