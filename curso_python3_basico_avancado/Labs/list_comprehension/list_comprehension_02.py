@@ -23,4 +23,13 @@ quadrado = [numero ** 2 for numero in numeros]
 
 nomes = ['Ana', 'João', 'Maria']
 letra_maiuscula = [nome.upper() for nome in nomes]
-print(letra_maiuscula)
+# print(letra_maiuscula)
+
+##############################################################################
+
+# Usando condições (if)
+# Você pode filtrar elementos:
+
+numeros = [1, 2, 3, 4, 5, 6]
+pares = [numero for numero in numeros if numero % 2 == 0]
+print(pares)
