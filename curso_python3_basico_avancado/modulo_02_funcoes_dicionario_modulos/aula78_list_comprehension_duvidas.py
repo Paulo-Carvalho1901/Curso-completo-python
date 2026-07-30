@@ -6,5 +6,9 @@ novos_numeros = numeros
 # está apenas apontando para mesmo valor na memória
 # a lista não está sendo copía para novos_ numeros, apenas referencia 
 # o mesmo valor.
-print(numeros, id(numeros))
-print(novos_numeros, id(novos_numeros))
+# print(numeros, id(numeros))
+# print(novos_numeros, id(novos_numeros))
+
+# numeros[0] = 10
+novos_numeros[0] = 999
+print(numeros)
