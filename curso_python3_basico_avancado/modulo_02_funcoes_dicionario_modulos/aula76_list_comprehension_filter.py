@@ -46,5 +46,13 @@ novos_produtos = [
 
 ##############################################################################
 # Lista comprehension
-lista = [n for n in range(10) if n < 5]
-print(lista)
+# lista = [n for n in range(10) if n < 5]
+novos_produtos = [
+    # Mapeamento list comprehension
+    {**produto, 'preco': produto['preco'] * 1.05}
+    if produto['preco'] > 20 else {**produto}
+    for produto in produtos
+    # Filtro list comprehension
+    if produto['preco'] > 10
+]
+mostrando_na_tela(novos_produtos)
