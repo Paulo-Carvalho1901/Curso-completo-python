@@ -23,4 +23,23 @@ novos_produtos = [
 # print(novos_produtos)
 # print(*novos_produtos, sep='\n')
 
-mostrando_na_tela(novos_produtos)
+# mostrando_na_tela(novos_produtos)
+
+###########################################################################
+
+# Gerando uma lista
+# como faria essa lista = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+# print(list(range(10)))
+
+# lista = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+# # print(lista)
+
+# def cria_lista():
+#     lista = []
+#     for numero in range(10):
+#         # criar uma lógica para acumular os numeros
+#         lista.append(numero)
+#     return lista
+
+# l1 = cria_lista()
+# print(l1)
