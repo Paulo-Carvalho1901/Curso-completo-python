@@ -46,5 +46,5 @@ novos_produtos = [
 
 ##############################################################################
 # Lista comprehension
-lista = [n for n in range(10)]
+lista = [n for n in range(10) if n < 5]
 print(lista)
