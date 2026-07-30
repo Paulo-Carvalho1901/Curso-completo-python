@@ -43,3 +43,8 @@ novos_produtos = [
 
 # l1 = cria_lista()
 # print(l1)
+
+##############################################################################
+# Lista comprehension
+lista = [n for n in range(10)]
+print(lista)
