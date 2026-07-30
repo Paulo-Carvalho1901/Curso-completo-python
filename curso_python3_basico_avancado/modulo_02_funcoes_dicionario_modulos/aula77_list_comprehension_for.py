@@ -12,7 +12,7 @@ lista = [
 ]
 
 lista = [
-    [x for y in range(3)]
+    [(x, letra) for letra in 'Luiz']
     for x in range(3)
 ]
 
