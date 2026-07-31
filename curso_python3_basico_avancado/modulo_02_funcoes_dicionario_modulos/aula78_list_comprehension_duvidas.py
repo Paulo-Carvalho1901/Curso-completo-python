@@ -14,9 +14,12 @@
 # Fazendo uma shallow copy (copia rasa dos itens)
 
 numeros = [1, 2, 3, 4, 5]
-novos_numeros = numeros.copy()
+# novos_numeros = numeros.copy() 
+# mudulo copy apenas copia com tipos imutaveis dentro da lista
+#
 
+# shallow copy com list comprehension
+novos_numeros = [numero for numero in numeros]
 
 numeros[0] = 20
-print(numeros)
 print(novos_numeros)
