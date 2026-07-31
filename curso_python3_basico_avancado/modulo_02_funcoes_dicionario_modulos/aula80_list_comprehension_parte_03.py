@@ -10,8 +10,7 @@ pares = [numero for numero in numeros if numero % 2 == 0]
 # Outro if
 outro_if = [
     numero if numero != 6 else 600
-    for numero in numeros 
-    if numero % 2 == 0
+    for numero in pares 
 ]
 
 print(numeros)
