@@ -15,4 +15,19 @@ dc = {
     for chave, valor in produto.items()
 }
 
-print(dc)
+# print(dc)
+
+############################################################################
+
+lista = [
+    ('a', 'valor'),
+    ('b', 'valor'),
+    ('c', 'valor'),
+]
+
+dc2 = {
+    chave: valor
+    for chave, valor in lista
+}
+
+print(dc2)
