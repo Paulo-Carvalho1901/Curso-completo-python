@@ -30,4 +30,10 @@ dc2 = {
     for chave, valor in lista
 }
 
-print(dc2)
+# print(dc2)
+
+############################################################################
+# Set Comprehension
+
+set1 = {i for i in range(10)}
+print(set1)
