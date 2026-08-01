@@ -10,7 +10,8 @@ produto = {
 #     print(chave, valor)
 
 dc = {
-    chave: valor
+    chave: valor.upper()
+    if isinstance(valor, str) else valor
     for chave, valor in produto.items()
 }
 
