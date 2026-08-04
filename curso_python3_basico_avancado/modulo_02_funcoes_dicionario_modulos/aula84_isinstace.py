@@ -6,8 +6,14 @@ lista = [
 
 for item in lista:
     if isinstance(item, set):
+        print('SET')
         item.add(5)
         print(item, isinstance(item, set))
 
     if isinstance(item, str):
-        print(item.upper(), isinstance(item, str))
+        print('STR')
+        print(item.upper())
+
+    if isinstance(item, (float, int)):
+        print('Num')
+        print(item * 2)
