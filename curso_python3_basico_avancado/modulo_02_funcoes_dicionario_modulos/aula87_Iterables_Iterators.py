@@ -5,3 +5,5 @@ iterables = ['Eu', 'Tenho', '__iter__']
 iterator = iter(iterables)
 print(next(iterator))
 print(next(iterator))
+print(next(iterator))
+print(next(iterator))
