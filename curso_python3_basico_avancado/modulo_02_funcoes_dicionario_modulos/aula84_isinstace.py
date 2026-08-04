@@ -10,10 +10,14 @@ for item in lista:
         item.add(5)
         print(item, isinstance(item, set))
 
-    if isinstance(item, str):
+    elif isinstance(item, str):
         print('STR')
         print(item.upper())
 
-    if isinstance(item, (float, int)):
+    elif isinstance(item, (float, int)):
         print('NUM')
         print(item, item * 2)
+
+    else:
+        print('OUTRI')
+        print(item)
