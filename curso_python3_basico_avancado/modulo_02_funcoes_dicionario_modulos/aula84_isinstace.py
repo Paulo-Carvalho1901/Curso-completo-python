@@ -15,5 +15,5 @@ for item in lista:
         print(item.upper())
 
     if isinstance(item, (float, int)):
-        print('Num')
-        print(item * 2)
+        print('NUM')
+        print(item, item * 2)
