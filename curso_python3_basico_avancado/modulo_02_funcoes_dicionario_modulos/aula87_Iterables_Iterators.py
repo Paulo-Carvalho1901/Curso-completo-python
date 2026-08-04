@@ -3,3 +3,5 @@
 iterables = ['Eu', 'Tenho', '__iter__']
 #iterator = iterables.__iter__() # tem __iter__ e __next__
 iterator = iter(iterables)
+print(next(iterator))
+print(next(iterator))
