@@ -15,7 +15,11 @@ def generator(n=0):
 
 # print(gen1.__iter__())
 gen = generator(n=0)
-print(next(gen))
-print(next(gen))
-print(next(gen))
-print(next(gen))
+# print(next(gen))
+# print(next(gen))
+# print(next(gen))
+# print(next(gen))
+
+# Fazendo com for
+for n in gen:
+    print(n)
