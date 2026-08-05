@@ -2,7 +2,7 @@
 
 try:
     a = 10
-    b = 0
+    # b = 0
     print('Linha 1')
     c = a / b
     print('linha 2')
