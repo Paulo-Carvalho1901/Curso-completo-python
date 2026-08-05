@@ -5,8 +5,10 @@
 
 def generator(n=0):
     yield 1 # Pausar
-    return 'Acabou'
+    print('Continuando...')
+    yield 2
 
 
-gen1 = generator(n=0)
-print(gen1)
+gen = generator(n=0)
+# print(gen1.__iter__())
+print(next(gen))
