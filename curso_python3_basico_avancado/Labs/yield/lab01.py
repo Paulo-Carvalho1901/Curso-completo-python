@@ -3,10 +3,10 @@
 def generator(n=0, max=10):
     while True:
         yield n
+        n += 1
 
         if n > max:
             return
-        n += 1
 
 
 gen =  generator()
