@@ -1,10 +1,10 @@
 # Try, except, else, and finally
-a = 10
-b = 0
 
 try:
+    a = 10
+    b = 0
     c = a / b
 except:
-    ...
+    print('Dividiu por zero.')
 
 print('CONTINUAR...')
