@@ -12,3 +12,4 @@ def generator(n=0):
 gen = generator(n=0)
 # print(gen1.__iter__())
 print(next(gen))
+print(next(gen))
