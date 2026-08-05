@@ -6,7 +6,9 @@ try:
     print('Linha 1')
     c = a / b
     print('linha 2')
-except:
+except ZeroDivisionError:
     print('Dividiu por zero.')
+except NameError:
+    print('variável b não está definida.')
 
 print('CONTINUAR...')
