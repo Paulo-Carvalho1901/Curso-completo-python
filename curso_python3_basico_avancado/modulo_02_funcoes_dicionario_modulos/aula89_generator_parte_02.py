@@ -7,7 +7,9 @@ def generator(n=0):
     yield 1 # Pausar
     print('Continuando...')
     yield 2
-
+    print('Mais uma chamada...')
+    yield 3
+    
 
 gen = generator(n=0)
 # print(gen1.__iter__())
