@@ -1,4 +1,5 @@
 # try, execpt, else, and finally
+# https://docs.python.org/pt-br/3/library/exceptions.html#built-in-exceptions
 
 try:
    print('Abril o arquivo')
