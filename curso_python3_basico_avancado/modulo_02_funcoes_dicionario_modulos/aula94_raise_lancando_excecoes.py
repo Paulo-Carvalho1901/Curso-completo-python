@@ -8,9 +8,11 @@ def nao_aceito_zero(d):
 
 
 def deve_ser_int_float(n):
+    type_n = type(n)
     if not isinstance(n, (float, int)):
         raise TypeError(
-            f'{n} deve ser int ou float'
+            f'"{n}" deve ser int ou float'
+            f'"{type_n.__name__}" enviado'
         ) 
     return True
 
