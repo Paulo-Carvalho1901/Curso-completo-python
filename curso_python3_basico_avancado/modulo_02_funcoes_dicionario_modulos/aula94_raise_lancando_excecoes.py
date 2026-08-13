@@ -2,10 +2,8 @@
 # https://docs.python.org/pt-br/3/library/exceptions.html#built-in-exceptions
 
 def divide(n, d):
-    try:
-        return n / d
-    except ZeroDivisionError:
-        return n
-
+    if d == 0:
+        raise ZeroDivisionError('Voce está tendando dividir por zero.')
+    return n / d
 
 print(divide(8, 0))
