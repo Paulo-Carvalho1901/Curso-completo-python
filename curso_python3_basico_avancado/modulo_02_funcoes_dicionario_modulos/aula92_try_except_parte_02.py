@@ -14,6 +14,7 @@ except NameError:
 except (TypeError, IndexError) as error:
     print('TypeError + IndexError')
     print('Mensagem', error)
+    print('nome', error.__class__.__name__)
 except Exception:
     print('ERRO DESCONHECIDO.')
 
