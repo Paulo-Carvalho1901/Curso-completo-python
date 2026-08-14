@@ -7,3 +7,4 @@
 # padrão
 # O python conhece todos os módulos e pacotes presentes
 # nos caminhos de sys.path
+print('O nome desse modulo chama', __name__)
