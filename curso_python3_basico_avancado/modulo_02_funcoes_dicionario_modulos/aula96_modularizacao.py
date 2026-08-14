@@ -7,4 +7,7 @@
 # padrão
 # O python conhece todos os módulos e pacotes presentes
 # nos caminhos de sys.path
+
+import aula96_modulo_importado
+
 print('O nome desse modulo chama', __name__)
