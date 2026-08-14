@@ -15,3 +15,4 @@ from aula96_modulo_importado import variavel_modulo, soma
 print(aula96_modulo_importado.variavel_modulo)
 print(variavel_modulo)
 print(soma(2, 3))
+print(aula96_modulo_importado.soma(2, 6))
