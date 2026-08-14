@@ -13,19 +13,19 @@
 # Vantagens: nomes pequenos
 # Desvantagens: Sem o namespace do módulo
 # cuidado para não rescrever os nomes dos modulos
-from sys import exit, platform
+# from sys import exit, platform
 
 # platform = 'Eu Paulo'
 # print(platform)
 
-print(platform)
+# print(platform)
 
 # alias 1 - import nome_modulo as apelido
-# import sys as s
+import sys as s
 
-# sys = 'alguma coisa'
-# print(s.platform)
-# print(sys)
+sys = 'alguma coisa'
+print(s.platform)
+print(sys)
 
 
 # alias 2 - from nome_modulo import objeto as apelido
