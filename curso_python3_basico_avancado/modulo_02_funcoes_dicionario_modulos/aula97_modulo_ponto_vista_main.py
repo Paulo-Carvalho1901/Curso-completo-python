@@ -9,8 +9,9 @@
 # nos caminhos de sys.path
 
 import aula96_modulo_importado
-from aula96_modulo_importado import variavel_modulo
+from aula96_modulo_importado import variavel_modulo, soma
 
 # print('O nome desse modulo chama', __name__)
 print(aula96_modulo_importado.variavel_modulo)
 print(variavel_modulo)
+print(soma(2, 3))
