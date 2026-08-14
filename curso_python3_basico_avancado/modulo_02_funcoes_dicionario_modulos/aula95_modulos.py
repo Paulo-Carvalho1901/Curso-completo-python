@@ -12,9 +12,13 @@
 # partes - from nome_modulo import objeto1, objeto2
 # Vantagens: nomes pequenos
 # Desvantagens: Sem o namespace do módulo
+# cuidado para não rescrever os nomes dos modulos
 from sys import exit, platform
 
+# platform = 'Eu Paulo'
 # print(platform)
+
+print(platform)
 
 # alias 1 - import nome_modulo as apelido
 # import sys as s
