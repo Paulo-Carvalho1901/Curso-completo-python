@@ -1,4 +1,5 @@
 # from sys import path
+# https://stackoverflow.com/questions/2386714/why-is-import-bad
 
 # import aula100_package.modulo
 # from aula100_package.modulo import soma_do_modulo
