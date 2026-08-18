@@ -20,4 +20,6 @@
 # print(__name__)
 # fala_oi()
 
-import aula100_package
+from aula100_package import soma_do_modulo
+
+print(soma_do_modulo(2, 3))
