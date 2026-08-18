@@ -21,6 +21,7 @@
 # print(__name__)
 # fala_oi()
 
-from aula100_package import soma_do_modulo
+from aula100_package import soma_do_modulo, fala_oi, variavel, nova_variavel
 
 print(soma_do_modulo(2, 3))
+fala_oi()

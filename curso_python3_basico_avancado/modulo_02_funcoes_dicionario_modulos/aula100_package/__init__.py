@@ -6,4 +6,5 @@
 # def dobra(x):
 #     return x * 2
 
-from .modulo import nova_variavel, soma_do_modulo, variavel
+from aula100_package.modulo import *
+from aula100_package.modulo_b import *
