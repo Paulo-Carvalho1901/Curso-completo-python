@@ -15,3 +15,6 @@
 # print(variavel)
 # print(nova_variavel)
 
+from aula100_package.modulo import soma_do_modulo
+
+print(__name__)
