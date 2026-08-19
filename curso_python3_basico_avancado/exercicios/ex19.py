@@ -7,7 +7,13 @@ from dados import produtos
 # Aumente os preços dos produtos a seguir em 10%
 # Gere novos_produtos por deep copy (cópia profunda)
 
-novo_produtos = copy.deepcopy(produtos)
+novo_produtos = [
+    # mapeamento e a copia produnda
+   {**p} 
+    for p in copy.deepcopy(produtos)
+]
+
+
 
 print('Produtos originais')
 print(*produtos, sep='\n')
