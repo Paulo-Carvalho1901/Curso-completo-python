@@ -9,16 +9,14 @@ from dados import produtos
 
 novo_produtos = [
     # mapeamento e a copia produnda
-   {**p} 
-    for p in copy.deepcopy(produtos)
+   {**p, 'preco': round(p['preco'] * 1.1, 2)} 
+    for p in produtos
 ]
-
-
 
 print('Produtos originais')
 print(*produtos, sep='\n')
 print()
-print('Novos produtos')
+print('Novos produtos aumento de 10%')
 print(*novo_produtos, sep='\n')
 
 # Ordene os produtos por nome decrescente (do maior para menor)
