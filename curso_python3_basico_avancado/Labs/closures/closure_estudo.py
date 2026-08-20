@@ -41,7 +41,9 @@ print(completo)
 ################################################################################
 
 
-from utils import Logger
+from collections.abc import Callable
+
+type Logger = callable[[str], None]
 
 
 def make_logger(name: str, color: str, icon: str = "…") -> Logger:
