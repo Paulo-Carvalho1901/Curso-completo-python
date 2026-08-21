@@ -5,7 +5,7 @@ def func():
     # variavel "x" enclosing, compartilhada com func2, possibilitando 
     # lembrar desse valor, e efetuando a closure
     def func2():
-        nonlocal y
+        nonlocal y # O nonlocal serve para modificar uma variável do escopo enclosing.
         y += 1
         return y
 
