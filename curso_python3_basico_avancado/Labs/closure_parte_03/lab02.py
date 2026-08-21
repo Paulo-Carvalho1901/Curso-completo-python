@@ -9,3 +9,4 @@ def soma(x, y):
 
 print(soma.__name__)
 print(dir(soma))
+print(soma.__doc__)
