@@ -1,3 +1,7 @@
+# Link para leitura sobre Closures
+# https://realpython.com/python-closure/
+# https://earthly-dev.translate.goog/blog/python-closures-decorators/?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=pt&_x_tr_pto=tc
+# 
 # Closures em Python
 #
 # O que são closures?
