@@ -1,12 +1,12 @@
 # Entendendo a função closure
 
 def func():
-    lista = [] 
-    # variavel "lista" enclosing, compartilhada com func2, possibilitando 
+    x = 0
+    # variavel "x" enclosing, compartilhada com func2, possibilitando 
     # lembrar desse valor, e efetuando a closure
     def func2(x):
-        lista.append(x)
-        return lista
+        x += 1
+        return x 
 
     return func2
 
