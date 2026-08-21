@@ -1,17 +1,21 @@
 # Entendendo a função closure
 
 def func():
-    x = 0
+    y = 0
     # variavel "x" enclosing, compartilhada com func2, possibilitando 
     # lembrar desse valor, e efetuando a closure
-    def func2(x):
-        x += 1
-        return x 
+    def func2():
+        nonlocal y
+        y += 1
+        return y
 
     return func2
 
 
 x = func()
-print(x(2))
-print(x(3))
-print(x((3, 12)))
+print(x())
+print(x())
+print(x())
+print()
+h = func()
+print(h())
