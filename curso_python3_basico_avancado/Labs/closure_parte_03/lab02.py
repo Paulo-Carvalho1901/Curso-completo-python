@@ -7,6 +7,7 @@ def soma(x, y):
     return x + y
 
 
-print(soma.__name__)
-print(dir(soma))
-print(soma.__doc__)
+# print(soma.__name__)
+# print(dir(soma))
+# print(soma.__doc__)
+# print(help(soma))
