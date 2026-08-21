@@ -35,12 +35,39 @@ def operation(*args: str) -> list[str]:
     return values
 
 
-print("\nCacher")
-operation_cached = cacher(operation)
+# print("\nCacher")
+# operation_cached = cacher(operation)
 
-op1 = operation_cached("a", "b", "c")
-op2 = operation_cached("a", "b", "c")  # em cache
-op2 = operation_cached("a", "b", "c")  # em cache
+# op1 = operation_cached("a", "b", "c")
+# op2 = operation_cached("a", "b", "c")  # em cache
+# op2 = operation_cached("a", "b", "c")  # em cache
 
-op4 = operation_cached("b", "b", "c")
-op5 = operation_cached("b", "b", "c")  # em cache
+# op4 = operation_cached("b", "b", "c")
+# op5 = operation_cached("b", "b", "c")  # em cache
+
+
+@cacher
+def get_from_db(id: int, /) -> str:
+    import time
+
+    names = ["Luiz", "Maria", "Helena", "Letícia"]
+
+    print(f"Returning value for ID {id}")
+    time.sleep(2)
+    return names[id]
+
+
+print("\nCacher Decorator")
+
+print(get_from_db(1))
+print(get_from_db(1))
+print(get_from_db(0))
+print(get_from_db(2))
+print(get_from_db(0))
+print(get_from_db(2))
+print(get_from_db(0))
+print(get_from_db(2))
+print(get_from_db(0))
+print(get_from_db(2))
+
+# ** Introspecção de closures
