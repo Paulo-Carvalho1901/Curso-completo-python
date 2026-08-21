@@ -6,4 +6,4 @@ def soma(x, y):
     return x + y
 
 
-print(soma(2, 2))
+print(soma.__name__)
