@@ -7,6 +7,8 @@ def div(x, y):
     return x / y
 
 
+print(list(map(lambda x: x + 2, [1, 2, 3])))
+
 # Função anônima
-soma = lambda x: x + 2
-print(soma(2))
+# soma = lambda x: x + 2
+# print(soma(2))
