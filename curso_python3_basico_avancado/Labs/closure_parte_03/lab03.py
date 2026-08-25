@@ -3,9 +3,10 @@ var = 7
 
 def func():
     # print(var)
+    global var
     var = 18
     print(var)
-    set_trace()
+    # set_trace()
 
 
 func()
