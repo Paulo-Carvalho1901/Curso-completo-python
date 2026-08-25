@@ -11,7 +11,7 @@ def div(x, y):
 
 # Função anônima
 soma = lambda x: x + 2
-print(soma(2))
+# print(soma(2))
 
 # Funções de classe
 
@@ -25,4 +25,5 @@ class classe_soma:
         return self.x + self.y
 
 
-
+soma_1 = classe_soma(4, 5)
+print(soma_1())
