@@ -26,4 +26,6 @@ class classe_soma:
 
 
 soma_1 = classe_soma(4, 5)
+soma_2 = classe_soma(5, 2)
 print(soma_1())
+print(soma_2())
