@@ -4,7 +4,9 @@ def fora(x):
     a = x
 
     def dentro():
-        return a
+       # print(locals())
+       print(dentro.__code__.co_freevars)
+       return a
     return dentro
 
 
