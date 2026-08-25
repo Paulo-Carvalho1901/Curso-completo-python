@@ -7,4 +7,5 @@ def externa():
     return interna
 
 
-externa()
+func = externa()
+func()
