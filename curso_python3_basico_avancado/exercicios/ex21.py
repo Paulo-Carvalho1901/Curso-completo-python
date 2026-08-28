@@ -12,7 +12,7 @@
 def zipper(lista1, lista2):
     intervalor_max = min(len(lista1), len(lista2))
     return [
-        i for i in range(intervalor_max)
+        (lista1[i], lista2[i]) for i in range(intervalor_max)
     ]
 
 
