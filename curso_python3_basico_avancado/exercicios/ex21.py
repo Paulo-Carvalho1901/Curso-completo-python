@@ -16,6 +16,6 @@ def zipper(lista1, lista2):
     ]
 
 
-l1 = [('Salvador', 'BA'), ('Ubatuba', 'SP'), ('Belo Horizonte', 'MG')]
+l1 = ['Salvador', 'Ubatuba', 'Belo Horizonte']
 l2 = ['BA', 'SP', 'MG', 'RJ']
 print(zipper(l1, l2))
