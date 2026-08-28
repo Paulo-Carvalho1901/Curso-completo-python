@@ -3,6 +3,7 @@
 # Funções decoradoras são funções que decoram outras funções
 # Decoradores são usados para fazer o Python
 # usar as funções decoradoras em outras funções.
+# Decoradores são "Syntax Sugar" (Açucar sintatico)
 
 # Função decorada
 def criar_funcao(func):
