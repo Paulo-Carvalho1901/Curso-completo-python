@@ -18,6 +18,7 @@ def criar_funcao(func):
     return interna
 
 
+@criar_funcao
 def inverter_string(string):
     return string[::-1]
 
@@ -27,6 +28,6 @@ def e_string(param):
         raise TypeError('Paramatro deve ser uma string')
 
 
-inverte_string_checando_parametro = criar_funcao(inverter_string)
-invertida = inverte_string_checando_parametro('123')
+# inverte_string_checando_parametro = criar_funcao(inverter_string)
+invertida = inverter_string('123')
 print(invertida)
