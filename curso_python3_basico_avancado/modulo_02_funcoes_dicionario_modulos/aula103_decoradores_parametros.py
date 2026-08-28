@@ -1,6 +1,6 @@
 # Decoradores com parâmetros
 
-def decoradora(func):
+def facbrica_de_funcoes(func):
     print('Decoradora 1')
 
     def aninhada(*args, **kwargs):
@@ -10,12 +10,12 @@ def decoradora(func):
     return aninhada
 
 
-@decoradora
+@facbrica_de_funcoes
 def soma(x, y):
     return x + y
 
 
-multiplica = decoradora(lambda x, y: x * y)
+multiplica = facbrica_de_funcoes(lambda x, y: x * y)
 
 dez_mais_cinco = soma(10, 5)
 dez_vezes_cinco = multiplica(10, 5)
