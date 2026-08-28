@@ -9,3 +9,6 @@ def inverter_string(string):
 
 
 
+
+invertida = inverter_string('Paulo')
+print(invertida)
