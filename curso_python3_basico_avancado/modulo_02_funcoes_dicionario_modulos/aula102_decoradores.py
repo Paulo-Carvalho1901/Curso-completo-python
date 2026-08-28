@@ -4,11 +4,28 @@
 # Decoradores são usados para fazer o Python
 # usar as funções decoradoras em outras funções.
 
+# Função decorada
+def criar_funcao(func):
+    def interna(*args, **kwargs):
+        print('Vou te decorar...')
+        for arg in args:
+            e_string(arg)
+        resultado = func(*args, **kwargs)
+        print(f'Vou te mostrar seu resultado {resultado}')
+        print('Ok, agora você foi decorada!')
+        return resultado
+    return interna
+
+
 def inverter_string(string):
     return string[::-1]
 
 
+def e_string(param):
+    if not isinstance(param, str):
+        raise TypeError('Paramatro deve ser uma string')
 
 
-invertida = inverter_string('Paulo')
+inverte_string_checando_parametro = criar_funcao(inverter_string)
+invertida = inverte_string_checando_parametro('123')
 print(invertida)
