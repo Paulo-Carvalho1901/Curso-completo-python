@@ -15,6 +15,8 @@ lista_soma  = [2, 4, 6, 8]
 lista_a     = [1, 2, 3, 4, 5, 6, 7]
 lista_b     = [1, 2, 3, 4]
 
+# Solução 1
+
 # lista_soma = []
 # for i in range(len(lista_b)):
 #     lista_soma.append(lista_a[i] + lista_b[i])
@@ -26,3 +28,8 @@ lista_soma = []
 for i, _ in enumerate(lista_b):
     lista_soma.append(lista_a[i] + lista_b[i])
 print(lista_soma)
+
+# Solução 3 forma Pythonica
+
+lista_soma_simples = [x + y for x, y in zip(lista_a, lista_b)]
+print(lista_soma_simples)
