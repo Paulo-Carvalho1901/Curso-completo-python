@@ -27,9 +27,11 @@ lista_b     = [1, 2, 3, 4]
 lista_soma = []
 for i, _ in enumerate(lista_b):
     lista_soma.append(lista_a[i] + lista_b[i])
-print(lista_soma)
+# print(lista_soma)
 
 # Solução 3 forma Pythonica
 
 lista_soma_simples = [x + y for x, y in zip(lista_a, lista_b)]
 print(lista_soma_simples)
+
+# print(list(zip(lista_a, lista_b)))
