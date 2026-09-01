@@ -21,8 +21,8 @@
 
 texto = 'texto'
 
-novo_letra = ''
+nova_letra = ''
 for letra in texto:
-    novo_letra += f'*{letra}'
+    nova_letra += f'*{letra}'
     print(letra)
-print(novo_letra + '*')
+print(nova_letra + '*')
