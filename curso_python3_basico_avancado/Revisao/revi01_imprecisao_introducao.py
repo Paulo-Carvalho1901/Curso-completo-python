@@ -1,6 +1,12 @@
 # Imprecisão de ponto flutuante
 # 
 
+# Material para estudo (links)
+# Double-precision floating-point format IEEE 754
+# https://en.wikipedia.org/wiki/Double-precision_floating-point_format
+# https://docs.python.org/pt-br/3/tutorial/floatingpoint.html
+# # https://docs.python.org/pt-br/3.10/library/decimal.html
+
 numero_1 = 0.1
 numero_2 = 0.2
 
