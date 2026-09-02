@@ -2,8 +2,8 @@
 
 from itertools import count
 
-c1 = count(10)
-r1 = range(10, 50, 8)
+c1 = count(8)
+r1 = range(8, 50, 8)
 
 # print(next(c1))
 # print(next(c1))
@@ -17,7 +17,7 @@ print('ri', hasattr(r1, '__next__')) # Iterator
 print() 
 print('Count')
 for i in c1:
-    if i > 25:
+    if i > 50:
         break
 
     print(i)
