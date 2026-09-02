@@ -31,6 +31,10 @@ for i, _ in enumerate(lista_b):
 
 # Solução 3 forma Pythonica
 
+# lista_soma_simples = []
+# for x, y zip(lista_a, lista_b):
+#   lista_soma_simples.append(x + y)
+
 lista_soma_simples = [x + y for x, y in zip(lista_a, lista_b)]
 print(lista_soma_simples)
 
