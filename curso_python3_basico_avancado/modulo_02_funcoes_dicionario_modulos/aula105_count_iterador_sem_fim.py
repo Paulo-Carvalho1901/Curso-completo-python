@@ -3,7 +3,7 @@
 from itertools import count
 
 c1 = count(10)
-r1 = range(10, 50)
+r1 = range(10, 50, 8)
 
 # print(next(c1))
 # print(next(c1))
