@@ -17,3 +17,9 @@ print(soma)
 
 # Isso permite armazenar números muito grandes e muito pequenos.
 
+# Exemplo
+
+print(0.1 + 0.2)
+print(0.1 + 0.1 + 0.1)
+print(1.1 + 2.2)
+
