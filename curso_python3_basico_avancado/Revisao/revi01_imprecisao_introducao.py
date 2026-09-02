@@ -57,3 +57,17 @@ print(math.isclose(0.1 + 0.2, 0.3))
 
 # O isclose() verifica se os números são suficientemente próximos.
 
+# Decimal
+
+# Quando você precisa de precisão exata.
+# Bancos
+# Sistemas financeiros
+# Cálculo de impostos
+# Emissão de notas fiscais
+
+from decimal import Decimal
+
+a = Decimal("0.1")
+b = Decimal("0.2")
+
+print(a + b)
