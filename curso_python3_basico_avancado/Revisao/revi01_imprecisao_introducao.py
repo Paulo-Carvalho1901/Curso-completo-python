@@ -47,3 +47,13 @@ print(resultado)
 
 x = round(0.1 + 0.2, 2)
 print(x == 0.3)
+
+# math.isclose()
+# Esse é o mais recomendado para comparações.
+
+import math
+
+print(math.isclose(0.1 + 0.2, 0.3))
+
+# O isclose() verifica se os números são suficientemente próximos.
+
