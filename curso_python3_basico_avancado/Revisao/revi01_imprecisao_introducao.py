@@ -23,6 +23,25 @@ print(0.1 + 0.2)
 print(0.1 + 0.1 + 0.1)
 print(1.1 + 2.2)
 
+# Não. O problema não é do Python. O mesmo acontece em Java, 
+# C#, JavaScript, C++, Go e 
+# várias outras linguagens.
+
+# Por que isso acontece?
+# Os computadores trabalham internamente com binário (base 2).
+# Nós usamos decimal (base 10):
+# 0.1
+# 0.2
+# 0.3
+# 
+# O computador usa algo parecido com: 
+# 0
+# 1
+# 10
+# 11
+# 100
+# Alguns números decimais não podem ser representados exatamente em binário.
+
 # Exemplos mais praticos
 
 x = 0.1 + 0.2
