@@ -23,3 +23,7 @@ print(0.1 + 0.2)
 print(0.1 + 0.1 + 0.1)
 print(1.1 + 2.2)
 
+# Exemplos mais praticos
+
+x = 0.1 + 0.2
+print(x == 0.3)
