@@ -27,3 +27,12 @@ print(1.1 + 2.2)
 
 x = 0.1 + 0.2
 print(x == 0.3)
+
+# Por que é perigoso?
+# Imagine um sistema bancário:
+
+saldo = 0.1 + 0.2
+if saldo == 0.3:
+    print('OK')
+else:
+    print('Erro')
