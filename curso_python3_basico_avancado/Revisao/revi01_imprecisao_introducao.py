@@ -36,3 +36,14 @@ if saldo == 0.3:
     print('OK')
 else:
     print('Erro')
+
+
+# Formas de contornar
+
+resultado = round(0.1 + 0.2, 2)
+print(resultado)
+
+# Exemplo
+
+x = round(0.1 + 0.2, 2)
+print(x == 0.3)
