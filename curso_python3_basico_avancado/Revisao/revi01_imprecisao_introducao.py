@@ -71,3 +71,33 @@ a = Decimal("0.1")
 b = Decimal("0.2")
 
 print(a + b)
+
+# Trabalhar com inteiros
+# Muito usado em sistemas financeiros.
+
+# Onde os floats são adequados?
+# Floats são excelentes para:
+
+# Jogos x = 13.4
+# Física velocidade = 12.75
+# Inteligência Artificial peso = 0.582913
+# Gráficos escala = 1.25
+# Machine Learning learning_rate = 0.001
+
+# Pequenos erros são aceitáveis nesses contextos.
+
+# Onde evitar floats?
+# Bancos
+# Impostos
+# Folha de pagamento
+# Controle de estoque financeiro
+# Criptomoedas (na maioria dos casos)
+
+# Regra prática
+# Se estiver usando float:
+# import math
+# math.isclose(a, b)
+
+# Se for dinheiro:
+# from decimal import Decimal
+
