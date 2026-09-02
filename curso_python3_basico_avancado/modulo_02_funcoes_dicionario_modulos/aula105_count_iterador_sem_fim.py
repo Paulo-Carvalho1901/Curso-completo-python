@@ -13,3 +13,10 @@ print('c1', hasattr(c1, '__iter__')) # Iteravel
 print('c1', hasattr(c1, '__next__')) # Iterator
 print('ri', hasattr(r1, '__iter__')) # Iteravel
 print('ri', hasattr(r1, '__next__')) # Iterator
+
+print('Count')
+for i in c1:
+    if i > 100:
+        break
+
+    print(i)
