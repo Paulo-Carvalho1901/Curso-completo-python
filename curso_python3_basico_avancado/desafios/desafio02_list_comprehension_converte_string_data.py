@@ -8,7 +8,15 @@ from datetime import datetime
 
 datas_string = ['01/08/2021', '17/08/2000', '31/01/2000', '26/10/2010']
 
-for data in datas_string:
-    data_time = datetime.strptime(data, "%d/%m/%Y")
+# for data in datas_string:
+#     data_time = datetime.strptime(data, "%d/%m/%Y")
 
-    print(data_time)
+#     print(data_time)
+
+# List comprehension
+
+nova_data = [datetime.strptime(data, "%d/%m/%Y") for data in datas_string]
+# print(*nova_data)
+
+for d in nova_data:
+    print(d)
