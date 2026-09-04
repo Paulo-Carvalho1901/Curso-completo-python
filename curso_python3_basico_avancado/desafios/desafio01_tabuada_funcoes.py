@@ -8,3 +8,5 @@ def tabuada(numero):
     for i in range(11):
         print(f'{numero} x {i} = {numero * i}')
 
+
+valor = int(input('Digite um valor: '))
