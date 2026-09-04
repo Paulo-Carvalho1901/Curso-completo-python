@@ -5,7 +5,7 @@
 import random
 
 # 1° forma
-# lista_20_numeros_inteiros = random.randint(0,)
+# lista_20_numeros_inteiros = random.randint(0, 20)
 # print(lista_20_numeros_inteiros)
 
 # 2° forma
