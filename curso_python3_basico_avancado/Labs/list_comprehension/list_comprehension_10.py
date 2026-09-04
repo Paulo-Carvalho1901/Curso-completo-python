@@ -21,4 +21,28 @@ print(numeros)
 # Estrutura da lista comprehension
 # [o que você quer na lista] for i in range(n)
 
-print([random.randint(1, 10) for _ in range(20)])
+numeros = [random.randint(1, 10) for _ in range(20)]
+print(numeros)
+
+# Exemplo 2
+# Agora imagine que ja tenha uma lista de inteiros
+# vamos pegar a lista que criamos no exemplo anterior
+# e queira obter uma nova lista a partir dela
+# que contenha apenas numeros pares
+
+numeros_pares = [numero for numero in numeros if numero % 2 == 0]
+print(numeros_pares)
+
+# Exemplo 3
+# Você tem uma string e deseja remover todos os caracteres
+# que não forem letra ou espaço
+# EX: py(tho@n ol!a !mun@do => python ola mundo
+
+string = 'py(tho@n ol!a !mun@do'
+
+string_formatada = ''
+for letra in string:
+    if letra.isalpha() or letra == ' ':
+        string_formatada += letra
+
+print(string_formatada)
