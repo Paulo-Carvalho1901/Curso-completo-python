@@ -20,3 +20,5 @@ print(numeros)
 # List comprehension
 # Estrutura da lista comprehension
 # [o que você quer na lista] for i in range(n)
+
+print([random.randint(1, 10) for i in range(20)])
