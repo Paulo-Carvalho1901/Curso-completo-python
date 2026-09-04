@@ -46,3 +46,6 @@ for letra in string:
         string_formatada += letra
 
 print(string_formatada)
+
+nova_string = ''.join([letra for letra in string if letra.isspace() or letra.isalpha()])
+print(nova_string)
