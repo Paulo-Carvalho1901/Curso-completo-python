@@ -37,10 +37,10 @@ print()
 
 print('Lista apenas IPs')
 
-# ips = [ip['ip'] for ip in equipamentos]
-# print(ips)
-for ip in equipamentos:
-    print(ip['ip'])
+ips = [equipamento['ip'] for equipamento in equipamentos]
+print(ips)
+# for ip in equipamentos:
+#     print(ip['ip'])
 
 print()
 # Desafio 3
@@ -68,3 +68,4 @@ for equipamento in equipamentos:
 #         equipapamento_cisco.append(equipamento)
 
 # print(equipapamento_cisco)
+
