@@ -50,6 +50,14 @@ print()
 print('Buscando apenas equipamento cisco')
 
 # Retornando todo os equipamento da cisco
-for equipamento in equipamentos:
-    if equipamento['fabricante'] == 'Cisco':
-        print(equipamento)
+# for equipamento in equipamentos:
+#     if equipamento['fabricante'] == 'Cisco':
+#         print(equipamento)
+
+equipamento_cisco = [
+    equipamento
+    for equipamento in equipamentos
+    if equipamento['fabricante'] == 'Cisco'
+]
+
+print(equipamento_cisco)
