@@ -2,7 +2,7 @@
 
 pessoa = {}
 
-chave = 'nome_completo'
+chave = 'nome'
 
 
 # add um chave e valor no dict
@@ -19,3 +19,4 @@ pessoa[chave] = 'Andreia Cristina'
 del pessoa['sobrenome']
 
 print(pessoa)
+print(pessoa[chave])
