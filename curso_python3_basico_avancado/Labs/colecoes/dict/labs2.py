@@ -15,9 +15,15 @@
 pessoa = {
     'nome': 'Paulo',
     'sobrenome': 'Carvalho',
+    'idade': 37,
+    'altura': 1.80,
+    'endereço': [
+        {'Rua': 'tal tal', 'numero': 353},
+        {'Rua': 'outra rua', 'numero': 151},
+    ]
 }
 
 # criando dict não muito usada hoje
-pessoa = dict(nome='Marcio', sobrenome='Silva')
+# pessoa = dict(nome='Marcio', sobrenome='Silva')
 
 print(pessoa)
