@@ -31,3 +31,16 @@ print(hostnames)
 #     hostnames_02.append(equipamento['hostname'])
 
 # print(hostnames_02)
+
+# Desafio 2
+# Criar uma lista somente com os IPs:
+
+print('Lista apenas IPs')
+
+ips = [ip['ip'] for ip in equipamentos]
+print(ips)
+
+print()
+# for ip in equipamentos:
+#     print(ip['ip'])
+
