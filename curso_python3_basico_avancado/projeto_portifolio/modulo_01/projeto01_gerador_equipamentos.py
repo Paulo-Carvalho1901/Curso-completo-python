@@ -16,13 +16,13 @@ equipamentos = [
 # Desafio 1
 
 # Mostrar somente os hostnames:
-
-# for equipamento in equipamentos:
-#     print(equipamento['hostname'])
+print('Apenas Hostname')
+for equipamento in equipamentos:
+    print(equipamento['hostname'])
 
 print()
-hostnames = [equipamento['hostname'] for equipamento in equipamentos]
-print(hostnames)
+# hostnames = [equipamento['hostname'] for equipamento in equipamentos]
+# print(hostnames)
 
 # outra forma
 # hostnames_02 = []
@@ -37,27 +37,34 @@ print(hostnames)
 
 print('Lista apenas IPs')
 
-ips = [ip['ip'] for ip in equipamentos]
-print(ips)
+# ips = [ip['ip'] for ip in equipamentos]
+# print(ips)
+for ip in equipamentos:
+    print(ip['ip'])
 
 print()
-# for ip in equipamentos:
-#     print(ip['ip'])
-
 # Desafio 3
 # Agora quero somente os equipamentos Cisco.
 
 print('Buscando apenas equipamento cisco')
 
 # Retornando todo os equipamento da cisco
+for equipamento in equipamentos:
+    if equipamento['fabricante'] == 'Cisco':
+        print(equipamento)
+
+# equipamento_cisco = [
+#     equipamento
+#     for equipamento in equipamentos
+#     if equipamento['fabricante'] == 'Cisco'
+# ]
+
+# print(equipamento_cisco)
+
+# equipapamento_cisco = []
+
 # for equipamento in equipamentos:
 #     if equipamento['fabricante'] == 'Cisco':
-#         print(equipamento)
+#         equipapamento_cisco.append(equipamento)
 
-equipamento_cisco = [
-    equipamento
-    for equipamento in equipamentos
-    if equipamento['fabricante'] == 'Cisco'
-]
-
-print(equipamento_cisco)
+# print(equipapamento_cisco)
