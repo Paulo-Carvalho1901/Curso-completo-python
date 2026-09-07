@@ -30,4 +30,4 @@ pessoa = {
 # print(pessoa['sobrenome'])
 
 for chave in pessoa:
-    print(chave)
+    print(chave, pessoa[chave])
