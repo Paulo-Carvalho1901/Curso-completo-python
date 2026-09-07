@@ -26,4 +26,5 @@ pessoa = {
 # criando dict não muito usada hoje
 # pessoa = dict(nome='Marcio', sobrenome='Silva')
 
-print(pessoa)
+print(pessoa['nome'])
+print(pessoa['sobrenome'])
