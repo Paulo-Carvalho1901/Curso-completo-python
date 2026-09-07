@@ -26,5 +26,8 @@ pessoa = {
 # criando dict não muito usada hoje
 # pessoa = dict(nome='Marcio', sobrenome='Silva')
 
-print(pessoa['nome'])
-print(pessoa['sobrenome'])
+# print(pessoa['nome'])
+# print(pessoa['sobrenome'])
+
+for chave in pessoa:
+    print(chave)
