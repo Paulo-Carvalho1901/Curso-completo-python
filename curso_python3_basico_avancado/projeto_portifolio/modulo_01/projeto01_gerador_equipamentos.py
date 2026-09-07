@@ -44,3 +44,12 @@ print()
 # for ip in equipamentos:
 #     print(ip['ip'])
 
+# Desafio 3
+# Agora quero somente os equipamentos Cisco.
+
+print('Buscando apenas equipamento cisco')
+
+# Retornando todo os equipamento da cisco
+for equipamento in equipamentos:
+    if equipamento['fabricante'] == 'Cisco':
+        print(equipamento)
