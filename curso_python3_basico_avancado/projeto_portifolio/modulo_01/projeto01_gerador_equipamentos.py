@@ -17,3 +17,10 @@ equipamentos = [
 
 # Mostrar somente os hostnames:
 
+# for equipamento in equipamentos:
+#     print(equipamento['hostname'])
+
+print()
+hostnames = [equipamento['hostname'] for equipamento in equipamentos]
+print(hostnames)
+
