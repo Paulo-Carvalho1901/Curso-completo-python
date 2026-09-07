@@ -18,5 +18,11 @@ pessoa[chave] = 'Andreia Cristina'
 # Apagando uma chave
 del pessoa['sobrenome']
 
+
+if pessoa.get('sobrenome') is None:
+    print('Não existe')
+else:
+    print(pessoa['sobrenome'])
+
 print(pessoa)
 print(pessoa[chave])
