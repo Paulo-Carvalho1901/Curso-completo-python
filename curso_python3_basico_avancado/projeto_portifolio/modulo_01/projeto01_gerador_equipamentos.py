@@ -24,3 +24,10 @@ print()
 hostnames = [equipamento['hostname'] for equipamento in equipamentos]
 print(hostnames)
 
+# outra forma
+# hostnames_02 = []
+
+# for equipamento in equipamentos:
+#     hostnames_02.append(equipamento['hostname'])
+
+# print(hostnames_02)
