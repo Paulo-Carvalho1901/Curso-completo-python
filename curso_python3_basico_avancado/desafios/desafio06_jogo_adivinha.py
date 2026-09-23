@@ -18,4 +18,4 @@ numero_escolhido = int(input('Digite um némero de 1 a 5: '))
 if escolha_computador == numero_escolhido:
     print('Parabéns voce ganhou!')
 else:
-    print('Sorry try again!')
+    print('Desculpe tente novamente!')
